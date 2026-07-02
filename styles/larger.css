@@ -1,0 +1,58 @@
+/* ============================================
+   WDD231 - LARGER CSS (Tablet & Desktop)
+   Monday Ogedengbe
+   ============================================ */
+
+@media (min-width: 640px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main h1 {
+        grid-column: 1 / -1;
+    }
+
+    .certificate {
+        grid-column: 1 / -1;
+    }
+
+    .course-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    #menu-toggle {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex !important;
+        gap: 0.5rem;
+        margin-top: 0;
+        position: static;
+    }
+
+    #nav-menu li {
+        margin: 0;
+    }
+
+    .profile-name {
+        font-size: 2rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+    }
+
+    .course-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        padding: 2rem;
+    }
+}

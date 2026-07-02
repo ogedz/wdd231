@@ -18,7 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
 <base target="_blank">
 </head>
@@ -26,7 +27,7 @@
     <header>
         <div class="profile">
             <img src="images/me.webp" alt="Monday Ogedengbe profile photo" width="120" height="150" loading="lazy">
-            <h1>Monday Ogedengbe</h1>
+            <span class="profile-name">Monday Ogedengbe</span>
         </div>
         <nav aria-label="Main navigation">
             <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
@@ -40,6 +41,8 @@
     </header>
 
     <main>
+        <h1>Monday Ogedengbe</h1>
+
         <section class="coursework">
             <h2>Course Work</h2>
             <ul>
@@ -72,10 +75,10 @@
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> Monday Ogedengbe | Ile-Ife, Nigeria</p>
+        <p>&copy; <span id="year"></span> Monday Ogedengbe | Ile-Ife, Nigeria 🇳🇬</p>
         <p id="last-modified"></p>
     </footer>
 
-    <script src="scripts/home.js"></script>
+    <script src="scripts/home.js" defer></script>
 </body>
 </html>
