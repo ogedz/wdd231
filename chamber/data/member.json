@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Ife Grand Hotel",
+        "address": "1 Ooni Avenue, Ile-Ife",
+        "phone": "234-555-0101",
+        "website": "www.ifegrandhotel.com",
+        "image": "images/ife-grand.webp",
+        "membershipLevel": 3,
+        "description": "Premier hospitality destination"
+    },
+    {
+        "name": "Oduduwa Tech Solutions",
+        "address": "25 Oduduwa Way, Ile-Ife",
+        "phone": "234-555-0102",
+        "website": "www.oduduwa.tech",
+        "image": "images/oduduwa-tech.webp",
+        "membershipLevel": 2,
+        "description": "Software development and IT consulting"
+    },
+    {
+        "name": "OAU Bookstore",
+        "address": "Obafemi Awolowo University Campus",
+        "phone": "234-555-0103",
+        "website": "www.oaubooks.edu.ng",
+        "image": "images/oau-books.webp",
+        "membershipLevel": 1,
+        "description": "Academic and general books"
+    },
+    {
+        "name": "Modakeke Farms",
+        "address": "Modakeke Road, Ile-Ife",
+        "phone": "234-555-0104",
+        "website": "www.modakekefarms.ng",
+        "image": "images/modakeke.webp",
+        "membershipLevel": 2,
+        "description": "Organic produce and agro-processing"
+    },
+    {
+        "name": "Ife Bronze Arts",
+        "address": "12 Enuwa Square, Ile-Ife",
+        "phone": "234-555-0105",
+        "website": "www.ifebronzearts.com",
+        "image": "images/ife-bronze.webp",
+        "membershipLevel": 3,
+        "description": "Traditional bronze casting and art gallery"
+    },
+    {
+        "name": "Lifox Technologies",
+        "address": "7 Mayfair Road, Ile-Ife",
+        "phone": "234-555-0106",
+        "website": "www.lifox.tech",
+        "image": "images/lifox.webp",
+        "membershipLevel": 2,
+        "description": "Web development and digital solutions"
+    },
+    {
+        "name": "Community Health Center",
+        "address": "3 Hospital Road, Ile-Ife",
+        "phone": "234-555-0107",
+        "website": "www.ifehealth.org",
+        "image": "images/health.webp",
+        "membershipLevel": 1,
+        "description": "Non-profit healthcare services"
+    }
+]

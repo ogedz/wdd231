@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 - Monday Ogedengbe - Course Home Page</title>
+    <meta name="description" content="Course home page for WDD231 - Web Frontend Development I by Monday Ogedengbe, showcasing web programming certificate progress.">
+    <meta name="author" content="Monday Ogedengbe">
+    <meta name="theme-color" content="#1a472a">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="WDD231 - Monday Ogedengbe">
+    <meta property="og:description" content="Web Frontend Development I course home page with dynamic course tracking.">
+    <meta property="og:type" content="website">
+
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+<base target="_blank">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="images/me.webp" alt="Monday Ogedengbe profile photo" width="120" height="150" loading="lazy">
+            <h1>Monday Ogedengbe</h1>
+        </div>
+        <nav aria-label="Main navigation">
+            <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="https://github.com/ogedz/" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/m-ogeds/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="coursework">
+            <h2>Course Work</h2>
+            <ul>
+                <li><a href="#">W01: Course Home Page</a></li>
+                <li><a href="#">W02: Chamber Site Plan</a></li>
+                <li><a href="#">W03: Chamber Home Page</a></li>
+                <li><a href="#">W04: Chamber Discover Page</a></li>
+                <li><a href="#">W05: Chamber Directory & Join Pages</a></li>
+            </ul>
+        </section>
+
+        <section class="location">
+            <h2>Ile-Ife, Nigeria</h2>
+            <img src="images/ife.webp" alt="Ile-Ife city landscape showing greenery and buildings" width="400" height="300" loading="lazy">
+            <p>The Cradle of Yoruba Civilization</p>
+        </section>
+
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filters" role="group" aria-label="Filter courses by subject">
+                <button id="filter-all" class="filter-btn active" aria-pressed="true">All</button>
+                <button id="filter-cse" class="filter-btn" aria-pressed="false">CSE</button>
+                <button id="filter-wdd" class="filter-btn" aria-pressed="false">WDD</button>
+            </div>
+            <div id="course-list" class="course-list"></div>
+            <div class="credits">
+                <p>Total Credits: <span id="total-credits">0</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Monday Ogedengbe | Ile-Ife, Nigeria</p>
+        <p id="last-modified"></p>
+    </footer>
+
+    <script src="scripts/home.js"></script>
+</body>
+</html>
