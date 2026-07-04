@@ -1,10 +1,10 @@
 [
   {
-    "name": "Ife Grand Hotel",
+    "name": "Ife Grand Resort",
     "tagline": "Luxury hospitality in the heart of the city",
     "address": "1 Ooni Avenue, Ile-Ife, Osun State",
     "phone": "234-555-0101",
-    "website": "ifegrandhotel.com",
+    "website": "ifegrandresort.com",
     "image": "images/member1.webp",
     "membershipLevel": 3,
     "description": "Premier hospitality and conference center"
@@ -30,11 +30,11 @@
     "description": "Academic books and student supplies"
   },
   {
-    "name": "Modakeke Farms",
+    "name": "El-shaddai Farn",
     "tagline": "Fresh from farm to table",
-    "address": "Modakeke Road, Ile-Ife",
+    "address": "Ifewara Road, Ile-Ife",
     "phone": "234-555-0104",
-    "website": "modakekefarms.ng",
+    "website": "elshaddai.ng",
     "image": "images/member4.webp",
     "membershipLevel": 2,
     "description": "Organic produce and poultry"
@@ -54,7 +54,7 @@
     "tagline": "Digital solutions for growth",
     "address": "7 Mayfair Road, Ile-Ife",
     "phone": "234-555-0106",
-    "website": "lifox.tech",
+    "website": "lifox.com.ng",
     "image": "images/member6.webp",
     "membershipLevel": 2,
     "description": "Web development and cloud solutions"
