@@ -24,7 +24,7 @@
         padding: 0.5rem 1rem;
     }
 
-    /* Directory Grid - 2 columns */
+    /* Directory Grid - 2 columns on tablet */
     .members-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -57,14 +57,15 @@
         font-size: 2rem;
     }
 
-    /* Directory Grid - 3 columns */
+    /* Directory Grid - 3 columns on desktop (matches wireframe) */
     .members-grid {
         grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
     }
 }
 
 @media (min-width: 1024px) {
-    /* Directory Grid - 3 columns (matches wireframe) */
+    /* Keep 3 columns on large desktop */
     .members-grid {
         grid-template-columns: repeat(3, 1fr);
     }
