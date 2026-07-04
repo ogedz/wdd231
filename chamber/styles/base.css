@@ -197,11 +197,12 @@ main {
     gap: 0.75rem;
 }
 
+/* FIX: Explicit colors so buttons don't disappear in dark mode */
 .view-btn {
     padding: 0.5rem 1.5rem;
-    border: 2px solid var(--primary);
-    background-color: var(--surface);
-    color: var(--primary);
+    border: 2px solid #1a472a;
+    background-color: #ffffff;
+    color: #1a472a;
     border-radius: var(--radius);
     font-weight: 600;
     font-size: 1rem;
@@ -211,8 +212,8 @@ main {
 
 .view-btn:hover,
 .view-btn.active {
-    background-color: var(--primary);
-    color: var(--surface);
+    background-color: #1a472a;
+    color: #ffffff;
 }
 
 /* ============================================
@@ -404,6 +405,19 @@ body.dark-mode .member-card {
 
 body.dark-mode .nav-menu {
     background-color: var(--surface);
+}
+
+/* FIX: Keep buttons visible in dark mode */
+body.dark-mode .view-btn {
+    border-color: #c9a227;
+    background-color: #1e1e1e;
+    color: #c9a227;
+}
+
+body.dark-mode .view-btn:hover,
+body.dark-mode .view-btn.active {
+    background-color: #c9a227;
+    color: #121212;
 }
 
 /* ============================================
