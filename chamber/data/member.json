@@ -1,65 +1,92 @@
 [
-    {
-        "name": "Ife Grand Hotel",
-        "address": "1 Ooni Avenue, Ile-Ife",
-        "phone": "234-555-0101",
-        "website": "www.ifegrandhotel.com",
-        "image": "images/ife-grand.webp",
-        "membershipLevel": 3,
-        "description": "Premier hospitality destination"
-    },
-    {
-        "name": "Oduduwa Tech Solutions",
-        "address": "25 Oduduwa Way, Ile-Ife",
-        "phone": "234-555-0102",
-        "website": "www.oduduwa.tech",
-        "image": "images/oduduwa-tech.webp",
-        "membershipLevel": 2,
-        "description": "Software development and IT consulting"
-    },
-    {
-        "name": "OAU Bookstore",
-        "address": "Obafemi Awolowo University Campus",
-        "phone": "234-555-0103",
-        "website": "www.oaubooks.edu.ng",
-        "image": "images/oau-books.webp",
-        "membershipLevel": 1,
-        "description": "Academic and general books"
-    },
-    {
-        "name": "Modakeke Farms",
-        "address": "Modakeke Road, Ile-Ife",
-        "phone": "234-555-0104",
-        "website": "www.modakekefarms.ng",
-        "image": "images/modakeke.webp",
-        "membershipLevel": 2,
-        "description": "Organic produce and agro-processing"
-    },
-    {
-        "name": "Ife Bronze Arts",
-        "address": "12 Enuwa Square, Ile-Ife",
-        "phone": "234-555-0105",
-        "website": "www.ifebronzearts.com",
-        "image": "images/ife-bronze.webp",
-        "membershipLevel": 3,
-        "description": "Traditional bronze casting and art gallery"
-    },
-    {
-        "name": "Lifox Technologies",
-        "address": "7 Mayfair Road, Ile-Ife",
-        "phone": "234-555-0106",
-        "website": "www.lifox.tech",
-        "image": "images/lifox.webp",
-        "membershipLevel": 2,
-        "description": "Web development and digital solutions"
-    },
-    {
-        "name": "Community Health Center",
-        "address": "3 Hospital Road, Ile-Ife",
-        "phone": "234-555-0107",
-        "website": "www.ifehealth.org",
-        "image": "images/health.webp",
-        "membershipLevel": 1,
-        "description": "Non-profit healthcare services"
-    }
+  {
+    "name": "Ife Grand Hotel",
+    "tagline": "Luxury hospitality in the heart of the city",
+    "address": "1 Ooni Avenue, Ile-Ife, Osun State",
+    "phone": "234-555-0101",
+    "website": "ifegrandhotel.com",
+    "image": "images/member1.webp",
+    "membershipLevel": 3,
+    "description": "Premier hospitality and conference center"
+  },
+  {
+    "name": "Oduduwa Tech Solutions",
+    "tagline": "Innovation rooted in tradition",
+    "address": "25 Oduduwa Way, Ile-Ife, Osun State",
+    "phone": "234-555-0102",
+    "website": "oduduwa.tech",
+    "image": "images/member2.webp",
+    "membershipLevel": 2,
+    "description": "Software development and IT consulting"
+  },
+  {
+    "name": "OAU Bookstore & Supplies",
+    "tagline": "Knowledge for every generation",
+    "address": "OAU Campus, Ile-Ife",
+    "phone": "234-555-0103",
+    "website": "oaubooks.edu.ng",
+    "image": "images/member3.webp",
+    "membershipLevel": 1,
+    "description": "Academic books and student supplies"
+  },
+  {
+    "name": "Modakeke Farms",
+    "tagline": "Fresh from farm to table",
+    "address": "Modakeke Road, Ile-Ife",
+    "phone": "234-555-0104",
+    "website": "modakekefarms.ng",
+    "image": "images/member4.webp",
+    "membershipLevel": 2,
+    "description": "Organic produce and poultry"
+  },
+  {
+    "name": "Ife Bronze Arts",
+    "tagline": "Preserving heritage through art",
+    "address": "12 Enuwa Square, Ile-Ife",
+    "phone": "234-555-0105",
+    "website": "ifebronzearts.com",
+    "image": "images/member5.webp",
+    "membershipLevel": 3,
+    "description": "Traditional bronze casting gallery"
+  },
+  {
+    "name": "Lifox Technologies",
+    "tagline": "Digital solutions for growth",
+    "address": "7 Mayfair Road, Ile-Ife",
+    "phone": "234-555-0106",
+    "website": "lifox.tech",
+    "image": "images/member6.webp",
+    "membershipLevel": 2,
+    "description": "Web development and cloud solutions"
+  },
+  {
+    "name": "Ife Community Health",
+    "tagline": "Healthcare for all",
+    "address": "3 Hospital Road, Ile-Ife",
+    "phone": "234-555-0107",
+    "website": "ifehealth.org",
+    "image": "images/member7.webp",
+    "membershipLevel": 1,
+    "description": "Non-profit healthcare services"
+  },
+  {
+    "name": "Ooni Market Traders",
+    "tagline": "Your local marketplace",
+    "address": "Ooni Market, Ile-Ife",
+    "phone": "234-555-0108",
+    "website": "oonimarket.ng",
+    "image": "images/member8.webp",
+    "membershipLevel": 1,
+    "description": "Local goods and retail marketplace"
+  },
+  {
+    "name": "Ife Construction Ltd",
+    "tagline": "Building the future",
+    "address": "15 Builder's Road, Ile-Ife",
+    "phone": "234-555-0109",
+    "website": "ifeconstruction.com",
+    "image": "images/member9.webp",
+    "membershipLevel": 3,
+    "description": "Construction and civil engineering"
+  }
 ]
