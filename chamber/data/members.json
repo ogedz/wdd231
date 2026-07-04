@@ -4,7 +4,7 @@
     "tagline": "Luxury hospitality in the heart of the city",
     "address": "1 Ooni Avenue, Ile-Ife, Osun State",
     "phone": "234-555-0101",
-    "website": "ifegrandresort.com",
+    "website": "https://www.ifegrandresort.com.ng/",
     "image": "images/member1.webp",
     "membershipLevel": 3,
     "description": "Premier hospitality and conference center"
@@ -24,7 +24,7 @@
     "tagline": "Knowledge for every generation",
     "address": "OAU Campus, Ile-Ife",
     "phone": "234-555-0103",
-    "website": "oaubooks.edu.ng",
+    "website": "https://ir.oauife.edu.ng/",
     "image": "images/member3.webp",
     "membershipLevel": 1,
     "description": "Academic books and student supplies"
@@ -54,7 +54,7 @@
     "tagline": "Digital solutions for growth",
     "address": "7 Mayfair Road, Ile-Ife",
     "phone": "234-555-0106",
-    "website": "lifox.com.ng",
+    "website": "https://lifox.com.ng",
     "image": "images/member6.webp",
     "membershipLevel": 2,
     "description": "Web development and cloud solutions"
