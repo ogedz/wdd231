@@ -1,19 +1,45 @@
 /* ============================================
    WDD231 - LARGER CSS (Tablet & Desktop)
    Monday Ogedengbe
+   Wireframe: 2-col grid for Coursework + Location
    ============================================ */
 
+/* Tablet: 640px+ — Wireframe layout activates */
 @media (min-width: 640px) {
     main {
+        display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 1.5rem;
     }
 
+    /* h1 spans full width across both columns */
     main h1 {
         grid-column: 1 / -1;
+        grid-row: 1;
+        margin-bottom: 0;
+        text-align: left;
     }
 
+    /* Course Work: left column */
+    .coursework {
+        grid-column: 1;
+        grid-row: 2;
+        margin-bottom: 0;
+    }
+
+    /* Location: right column */
+    .location {
+        grid-column: 2;
+        grid-row: 2;
+        margin-bottom: 0;
+    }
+
+    /* Certificate: spans both columns, full width */
     .certificate {
         grid-column: 1 / -1;
+        grid-row: 3;
+        margin-bottom: 0;
     }
 
     .course-list {
@@ -21,6 +47,7 @@
     }
 }
 
+/* Desktop: 768px+ */
 @media (min-width: 768px) {
     #menu-toggle {
         display: none;
@@ -42,7 +69,6 @@
     }
 
     main {
-        grid-template-columns: 1fr 1fr;
         padding: 2rem;
     }
 
@@ -51,8 +77,10 @@
     }
 }
 
+/* Large Desktop: 1024px+ */
 @media (min-width: 1024px) {
     main {
         padding: 2rem;
+        gap: 2rem;
     }
 }

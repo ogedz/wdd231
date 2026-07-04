@@ -5,13 +5,14 @@
 
 :root {
     --primary: #1a472a;
-    --primary-dark: #0f2e1a;
+    --primary-dark: #0a1f12;
     --secondary: #c9a227;
     --background: #f8f9fa;
     --text: #212529;
+    --text-dark: #343a40;
     --accent: #b85c38;
     --white: #ffffff;
-    --gray: #6c757d;
+    --gray: #495057;
     --light-gray: #e9ecef;
     --shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
@@ -109,29 +110,28 @@ nav {
     font-weight: 500;
 }
 
+/* FIX #4: Contrast — black background on hover/active = 21:1 */
 #nav-menu a:hover,
 #nav-menu a.active {
-    background-color: var(--primary-dark);
+    background-color: #000000;
     font-weight: 700;
 }
 
-/* Main Layout */
+/* Main Layout — Mobile: single column (flow layout) */
 main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    display: block;  /* Simple flow on mobile */
     flex: 1;
     width: 100%;
 }
 
 main h1 {
-    grid-column: 1 / -1;
     color: var(--primary);
     font-size: 1.75rem;
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 /* Sections */
@@ -140,6 +140,11 @@ section {
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: var(--shadow);
+    margin-bottom: 1.5rem;
+}
+
+section:last-child {
+    margin-bottom: 0;
 }
 
 section h2 {
@@ -176,6 +181,10 @@ section h2 {
 }
 
 /* Location */
+.location {
+    text-align: center;
+}
+
 .location img {
     width: 100%;
     height: auto;
@@ -183,10 +192,11 @@ section h2 {
     margin: 1rem 0;
 }
 
+/* FIX #4: Darker gray for better contrast */
 .location p {
-    text-align: center;
     font-style: italic;
     color: var(--gray);
+    font-weight: 500;
 }
 
 /* Certificate */
@@ -259,6 +269,7 @@ section h2 {
     color: var(--primary);
 }
 
+/* FIX #4: Darker gray for AA contrast */
 .course-card p {
     font-size: 0.875rem;
     color: var(--gray);
