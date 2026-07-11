@@ -18,6 +18,8 @@
     --shadow-lg: 0 4px 16px rgba(0,0,0,0.15);
     --radius: 8px;
     --transition: all 0.3s ease;
+    --heading: var(--primary);   
+    --on-primary: #ffffff;       
 }
 
 body {
@@ -36,7 +38,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-    color: var(--primary);
+    color: var(--heading);
     transition: var(--transition);
 }
 
@@ -86,7 +88,7 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--primary);
+    color: var(--heading);
 }
 
 .logo-text .site-tagline {
@@ -126,7 +128,7 @@ a:hover {
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: var(--primary);
-    color: var(--surface);
+    color: var(--on-primary);
 }
 
 /* Menu Toggle & Dark Mode */
@@ -138,8 +140,8 @@ a:hover {
 
 #menu-toggle {
     background: none;
-    border: 2px solid var(--primary);
-    color: var(--primary);
+    border: 2px solid var(--heading);
+    color: var(--heading);
     font-size: 1.5rem;
     padding: 0.25rem 0.75rem;
     border-radius: var(--radius);
@@ -148,7 +150,7 @@ a:hover {
 
 #menu-toggle:hover {
     background-color: var(--primary);
-    color: var(--surface);
+    color: var(--on-primary);
 }
 
 #dark-mode-toggle {
@@ -186,7 +188,7 @@ main {
 }
 
 .directory-header h1 {
-    color: var(--primary);
+    color: var(--heading);
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -248,7 +250,7 @@ main {
 }
 
 .member-header h3 {
-    color: var(--primary);
+    color: var(--heading);
     font-size: 1.15rem;
     margin-bottom: 0.25rem;
 }
@@ -288,7 +290,7 @@ main {
 }
 
 .member-details strong {
-    color: var(--primary);
+    color: var(--heading);
 }
 
 .member-details a {
@@ -320,7 +322,7 @@ main {
 
 .site-footer {
     background-color: var(--primary);
-    color: var(--surface);
+    color: var(--on-primary);
     padding: 2rem 1rem;
     margin-top: auto;
 }
@@ -347,7 +349,7 @@ main {
 }
 
 .footer-section a {
-    color: var(--surface);
+    color: var(--on-primary);
     opacity: 0.9;
 }
 
@@ -396,6 +398,9 @@ body.dark-mode {
     --text-light: #a0a0a0;
     --border: #333333;
     --shadow: 0 2px 8px rgba(0,0,0,0.3);
+    /* Dark green is unreadable on dark card backgrounds, so headings
+       switch to gold in dark mode (matches the existing view-btn treatment) */
+    --heading: var(--secondary-light);
 }
 
 body.dark-mode .site-header,

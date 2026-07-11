@@ -1,55 +1,74 @@
-// spotlight.js - Dynamic business spotlight cards
+// spotlight.js - Random gold/silver member spotlight cards (home page)
 
-const members = [
-    {
-        name: "Ife Grand Hotel",
-        tagline: "Luxury hospitality in the heart of the city",
-        image: "https://placehold.co/80x80/1a472a/ffffff?text=IGH",
-        email: "info@ifegrandhotel.com",
-        phone: "234-555-0101",
-        url: "www.ifegrandhotel.com"
-    },
-    {
-        name: "Oduduwa Tech Solutions",
-        tagline: "Innovation rooted in tradition",
-        image: "https://placehold.co/80x80/c9a227/ffffff?text=OTS",
-        email: "contact@oduduwa.tech",
-        phone: "234-555-0102",
-        url: "www.oduduwa.tech"
-    },
-    {
-        name: "OAU Bookstore",
-        tagline: "Knowledge for every generation",
-        image: "https://placehold.co/80x80/b85c38/ffffff?text=OAU",
-        email: "sales@oaubooks.edu.ng",
-        phone: "234-555-0103",
-        url: "www.oaubooks.edu.ng"
+const membersUrl = './data/members.json';
+const spotlightContainer = document.getElementById('spotlight-container');
+
+const levelNames = {
+    3: 'Gold Member',
+    2: 'Silver Member',
+    1: 'Member'
+};
+
+async function getSpotlightMembers() {
+    try {
+        const response = await fetch(membersUrl);
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+
+        const members = await response.json();
+        displaySpotlights(members);
+    } catch (error) {
+        console.error('Spotlight fetch error:', error);
+        spotlightContainer.innerHTML = `
+            <p class="spotlight-loading">Unable to load member spotlights.</p>
+        `;
     }
-];
-
-function renderSpotlights() {
-    const container = document.getElementById('spotlight-container');
-    if (!container) return;
-
-    // Filter gold/silver members and pick 3 random
-    const spotlightMembers = members.slice(0, 3);
-
-    container.innerHTML = spotlightMembers.map(member => `
-        <article class="spotlight-card">
-            <div class="spotlight-header">
-                <h3>${member.name}</h3>
-                <p class="tagline">${member.tagline}</p>
-            </div>
-            <div class="spotlight-body">
-                <img src="${member.image}" alt="${member.name} logo" width="80" height="80">
-                <div class="spotlight-info">
-                    <p><strong>EMAIL:</strong> <a href="mailto:${member.email}">${member.email}</a></p>
-                    <p><strong>PHONE:</strong> <a href="tel:${member.phone}">${member.phone}</a></p>
-                    <p><strong>URL:</strong> <a href="https://${member.url}" target="_blank">${member.url}</a></p>
-                </div>
-            </div>
-        </article>
-    `).join('');
 }
 
-renderSpotlights();
+// Fisher-Yates shuffle
+function shuffle(array) {
+    const result = [...array];
+    for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+}
+
+function displaySpotlights(members) {
+    // Only Gold (3) and Silver (2) members are eligible for a spotlight
+    const eligible = members.filter(member => member.membershipLevel >= 2);
+
+    // Pick 2 or 3 at random each time the page loads
+    const count = Math.min(eligible.length, Math.random() < 0.5 ? 2 : 3);
+    const spotlightMembers = shuffle(eligible).slice(0, count);
+
+    spotlightContainer.innerHTML = spotlightMembers.map(member => {
+        const level = member.membershipLevel;
+        const websiteUrl = member.website.startsWith('http') ? member.website : `https://www.${member.website}`;
+        const websiteLabel = member.website.replace(/^https?:\/\//, '').replace(/\/$/, '');
+
+        return `
+            <article class="spotlight-card level-${level}">
+                <div class="spotlight-header">
+                    <span class="spotlight-badge level-${level}">${levelNames[level]}</span>
+                    <h3>${member.name}</h3>
+                    <p class="tagline">${member.tagline}</p>
+                </div>
+                <div class="spotlight-body">
+                    <img src="${member.image}" alt="${member.name} logo" loading="lazy" width="90" height="90"
+                         onerror="this.src='https://placehold.co/90x90/1a472a/ffffff?text=${member.name.charAt(0)}'">
+                    <div class="spotlight-info">
+                        <p><strong>ADDRESS:</strong> ${member.address}</p>
+                        <p><strong>PHONE:</strong> <a href="tel:+${member.phone}" target="_self">${member.phone}</a></p>
+                        <p><strong>URL:</strong> <a href="${websiteUrl}" target="_blank" rel="noopener noreferrer">${websiteLabel}</a></p>
+                    </div>
+                </div>
+            </article>
+        `;
+    }).join('');
+}
+
+getSpotlightMembers();

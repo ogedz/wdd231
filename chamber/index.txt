@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Directory | Ile-Ife Chamber of Commerce</title>
-    <meta name="description" content="Explore member businesses of the Ile-Ife Chamber of Commerce. Find local companies, services, and partners in the cradle of Yoruba civilization.">
+    <title>Home | Ile-Ife Chamber of Commerce</title>
+    <meta name="description" content="Ile-Ife Chamber of Commerce - connecting local businesses, hosting events, and growing commerce in the cradle of Yoruba civilization.">
     <meta name="author" content="Monday Ogedengbe">
     <meta name="theme-color" content="#1a472a">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="Business Directory | Ile-Ife Chamber of Commerce">
-    <meta property="og:description" content="Discover local businesses and partners in Ile-Ife. Browse our member directory featuring hotels, tech companies, farms, and more.">
+    <meta property="og:title" content="Ile-Ife Chamber of Commerce">
+    <meta property="og:description" content="Connecting local businesses and growing commerce in Ile-Ife.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ogedz.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://ogedz.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://ogedz.github.io/wdd231/chamber/images/logo.webp">
     <meta property="og:site_name" content="Ile-Ife Chamber of Commerce">
 
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Business Directory | Ile-Ife Chamber of Commerce">
-    <meta name="twitter:description" content="Discover local businesses and partners in Ile-Ife. Browse our member directory.">
+    <meta name="twitter:title" content="Ile-Ife Chamber of Commerce">
+    <meta name="twitter:description" content="Connecting local businesses and growing commerce in Ile-Ife.">
     <meta name="twitter:image" content="https://ogedz.github.io/wdd231/chamber/images/logo.webp">
 
     <!-- Preconnect for fonts -->
@@ -30,11 +30,13 @@
     <!-- Styles -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
 
     <script src="scripts/main.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 
 <base target="_blank">
 </head>
@@ -52,8 +54,8 @@
                 <nav aria-label="Main navigation">
                     <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
                     <ul id="nav-menu" class="nav-menu">
-                        <li><a href="index.html" target="_self">Home</a></li>
-                        <li><a href="directory.html" class="active" aria-current="page" target="_self">Directory</a></li>
+                        <li><a href="index.html" class="active" aria-current="page" target="_self">Home</a></li>
+                        <li><a href="directory.html" target="_self">Directory</a></li>
                         <li><a href="join.html" target="_self">Join</a></li>
                         <li><a href="discover.html" target="_self">Discover</a></li>
                     </ul>
@@ -64,21 +66,74 @@
     </header>
 
     <main>
-        <div class="directory-header">
-            <h1>Business Directory</h1>
-            <div class="view-toggle" role="group" aria-label="Toggle directory view">
-                <button id="grid-view" class="view-btn active" aria-pressed="true">
-                    <span aria-hidden="true">⊞</span> Grid
-                </button>
-                <button id="list-view" class="view-btn" aria-pressed="false">
-                    <span aria-hidden="true">☰</span> List
-                </button>
+        <!-- HERO -->
+        <section class="hero">
+            <img src="images/hero.webp" alt="Aerial view of Ile-Ife marketplace and skyline"
+                 class="hero-img"
+                 onerror="this.src='https://placehold.co/1400x600/1a472a/e0c04d?text=Ile-Ife+Chamber+of+Commerce'">
+            <div class="hero-overlay">
+                <p class="hero-eyebrow">Ile-Ife Chamber of Commerce</p>
+                <h1>Where Ancient Roots Grow Modern Business</h1>
+                <p class="hero-sub">Over 200 member businesses building the local economy, from Ooni Market traders to Osun State's fastest-growing tech startups.</p>
+                <a href="join.html" class="cta-btn" target="_self">Join the Chamber</a>
             </div>
-        </div>
+        </section>
 
-        <div id="members-container" class="members-grid">
-            <!-- Member cards rendered by JavaScript -->
-        </div>
+        <!-- CURRENT EVENTS -->
+        <section class="events-section">
+            <div class="section-heading">
+                <h2>Upcoming Events</h2>
+                <span class="bead-divider" aria-hidden="true"></span>
+            </div>
+            <div class="events-grid">
+                <article class="event-card">
+                    <p class="event-date"><span class="event-day">14</span><span class="event-month">Jul</span></p>
+                    <div class="event-info">
+                        <h3>Chamber Business Mixer</h3>
+                        <p>An evening of networking with fellow members at the Ife Grand Resort ballroom.</p>
+                        <p class="event-time">6:00 PM &ndash; 9:00 PM</p>
+                    </div>
+                </article>
+                <article class="event-card">
+                    <p class="event-date"><span class="event-day">02</span><span class="event-month">Aug</span></p>
+                    <div class="event-info">
+                        <h3>Small Business Grant Workshop</h3>
+                        <p>Learn how to apply for the Osun State SME development grant, hosted by Lifox Technologies.</p>
+                        <p class="event-time">10:00 AM &ndash; 12:00 PM</p>
+                    </div>
+                </article>
+                <article class="event-card">
+                    <p class="event-date"><span class="event-day">21</span><span class="event-month">Aug</span></p>
+                    <div class="event-info">
+                        <h3>Ife Heritage Trade Fair</h3>
+                        <p>Showcasing local artisans, farmers, and tech vendors at Enuwa Square.</p>
+                        <p class="event-time">9:00 AM &ndash; 5:00 PM</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- WEATHER -->
+        <section class="weather-section">
+            <div class="section-heading">
+                <h2>Ile-Ife Weather</h2>
+                <span class="bead-divider" aria-hidden="true"></span>
+            </div>
+            <div id="weather-container" class="weather-container">
+                <p class="weather-loading">Loading current conditions&hellip;</p>
+            </div>
+        </section>
+
+        <!-- SPOTLIGHTS -->
+        <section class="spotlight-section">
+            <div class="section-heading">
+                <h2>Member Spotlights</h2>
+                <span class="bead-divider" aria-hidden="true"></span>
+            </div>
+            <div id="spotlight-container" class="spotlight-grid">
+                <p class="spotlight-loading">Loading member spotlights&hellip;</p>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
@@ -87,8 +142,8 @@
                 <h2>Ile-Ife Chamber of Commerce</h2>
                 <p>10 Ooni Road</p>
                 <p>Ile-Ife, Osun State 220212</p>
-                <p><a href="mailto:info@ileifecc.org">info@ileifecc.org</a></p>
-                <p><a href="tel:+2345552300">(234) 555-2300</a></p>
+                <p><a href="mailto:info@ileifecc.org" target="_self">info@ileifecc.org</a></p>
+                <p><a href="tel:+2345552300" target="_self">(234) 555-2300</a></p>
             </div>
             <div class="footer-section">
                 <div class="social-links">

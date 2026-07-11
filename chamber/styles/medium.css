@@ -1,0 +1,105 @@
+/* ============================================
+   MEDIUM.CSS - Tablet View (640px - 1023px)
+   W03 Chamber of Commerce Home Page
+   ============================================ */
+
+@media (min-width: 640px) {
+    /* ============================================
+       HEADER - Horizontal Navigation
+       ============================================ */
+    #menu-toggle {
+        display: none;
+    }
+
+    nav {
+        width: auto;
+        margin-top: 0;
+    }
+
+    #nav-menu {
+        display: flex !important;
+        flex-direction: row;
+        gap: 0.5rem;
+        background: transparent;
+        border-radius: 0;
+    }
+
+    #nav-menu li {
+        border-bottom: none;
+    }
+
+    #nav-menu a {
+        padding: 0.5rem 1rem;
+        border-radius: var(--radius);
+    }
+
+    #nav-menu a:hover,
+    #nav-menu a.active {
+        background: var(--secondary-color);
+    }
+
+    /* ============================================
+       HERO - Taller
+       ============================================ */
+    .hero img {
+        height: 400px;
+    }
+
+    .hero-overlay h1 {
+        font-size: 2.25rem;
+    }
+
+    .hero-overlay p {
+        font-size: 1.1rem;
+    }
+
+    /* ============================================
+       INFO GRID - 2 columns, Events full width
+       ============================================ */
+    .info-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info-card.events {
+        grid-column: 1 / -1;
+    }
+
+    .info-card h2 {
+        font-size: 1.35rem;
+    }
+
+    /* ============================================
+       SPOTLIGHTS - 2 columns
+       ============================================ */
+    .spotlight-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ============================================
+       FOOTER - 3 columns
+       ============================================ */
+    footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        text-align: left;
+        gap: 1.5rem;
+        align-items: start;
+    }
+
+    .footer-logo {
+        justify-content: flex-start;
+    }
+
+    .footer-contact {
+        text-align: center;
+    }
+
+    .footer-meta {
+        text-align: right;
+        border-top: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        padding-top: 0;
+        padding-left: 1.5rem;
+        margin-top: 0;
+    }
+}
