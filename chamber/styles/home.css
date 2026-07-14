@@ -2,9 +2,6 @@
    ILE-IFE CHAMBER OF COMMERCE - HOME PAGE
    ============================================ */
 
-/* ============================================
-   SECTION HEADING + SIGNATURE DIVIDER
-   ============================================ */
 
 .section-heading {
     text-align: center;
@@ -17,6 +14,8 @@
     margin-bottom: 0.5rem;
 }
 
+/* Signature element: a strand of "beads" under each section heading,
+   a nod to Ife bronze/bead-work heritage referenced by chamber members */
 .bead-divider {
     display: inline-block;
     width: 140px;
@@ -52,7 +51,7 @@ main > section {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(15,46,26,0.35) 0%, rgba(15,46,26,0.85) 100%);
+    background-image: linear-gradient(180deg, rgba(15,46,26,0.35) 0%, rgba(15,46,26,0.85) 100%);
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -180,10 +179,17 @@ main > section {
     gap: 1.5rem;
 }
 
-.weather-loading,
-.spotlight-loading {
+.weather-loading {
     text-align: center;
     color: var(--text-light);
+    padding: 1rem;
+}
+
+/* Sits directly on the page background before cards render (no surface
+   wrapper yet), so --text-light doesn't have enough contrast here */
+.spotlight-loading {
+    text-align: center;
+    color: var(--text);
     padding: 1rem;
 }
 
@@ -366,13 +372,8 @@ main > section {
    DARK MODE ADJUSTMENTS
    ============================================ */
 
-body.dark-mode .event-card,
-body.dark-mode .weather-container,
-body.dark-mode .spotlight-card,
-body.dark-mode .forecast-day {
-    background-color: var(--surface);
-}
-
+/* forecast-day normally uses --background (the page color); dark mode
+   gives it a slightly lighter shade so it reads as a distinct chip */
 body.dark-mode .forecast-day {
     background-color: #262626;
 }

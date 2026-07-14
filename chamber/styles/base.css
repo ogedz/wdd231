@@ -18,7 +18,7 @@
     --shadow-lg: 0 4px 16px rgba(0,0,0,0.15);
     --radius: 8px;
     --transition: all 0.3s ease;
-    --heading: var(--primary);   
+    --heading: var(--primary); 
     --on-primary: #ffffff;       
 }
 
@@ -164,7 +164,7 @@ a:hover {
 }
 
 #dark-mode-toggle:hover {
-    background-color: var(--light-gray);
+    background-color: var(--border);
 }
 
 /* ============================================
@@ -401,15 +401,6 @@ body.dark-mode {
     /* Dark green is unreadable on dark card backgrounds, so headings
        switch to gold in dark mode (matches the existing view-btn treatment) */
     --heading: var(--secondary-light);
-}
-
-body.dark-mode .site-header,
-body.dark-mode .member-card {
-    background-color: var(--surface);
-}
-
-body.dark-mode .nav-menu {
-    background-color: var(--surface);
 }
 
 /* FIX: Keep buttons visible in dark mode */
