@@ -2,6 +2,9 @@
    ILE-IFE CHAMBER OF COMMERCE - HOME PAGE
    ============================================ */
 
+/* ============================================
+   SECTION HEADING + SIGNATURE DIVIDER
+   ============================================ */
 
 .section-heading {
     text-align: center;
@@ -51,7 +54,10 @@ main > section {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background-image: linear-gradient(180deg, rgba(15,46,26,0.35) 0%, rgba(15,46,26,0.85) 100%);
+    /* Translucent scrim (not an opaque color, not a gradient-only image) so
+       the hero photo still shows through, while browsers and contrast
+       checkers both have an actual background-color to read text against */
+    background-color: rgba(15, 46, 26, 0.72);
     color: #ffffff;
     display: flex;
     flex-direction: column;
