@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="goat icon">
+  <circle cx="32" cy="32" r="30" fill="#EAF1EC" stroke="#F1D28A" stroke-width="2"/>
+  <svg x="8" y="8" width="48" height="48" viewBox="0 0 48 48">
+    
+    <path d="M14 20c-2-4-1-8 2-9 2 3 1 6 0 8" fill="none" stroke="#1F4D3D" stroke-width="2" stroke-linecap="round"/>
+    <path d="M12 24c0-6 5-10 11-10s10 4 10 9c0 3-1 5-3 7l1 8h-4l-1-6c-1 .3-2 .4-3 .4s-2-.1-3-.4l-1 6h-4l1-8c-2-2-3-3-3-6z" fill="none" stroke="#1F4D3D" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="26" cy="18" r="1.4" fill="#1F4D3D"/>
+    <path d="M12 22l-4-1M12 24l-4 2" stroke="#1F4D3D" stroke-width="1.6" stroke-linecap="round"/>
+  
+  </svg>
+</svg>

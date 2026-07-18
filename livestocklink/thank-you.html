@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submission received — LivestockLink Nigeria</title>
+  <meta name="description" content="Confirmation page showing the details you just submitted to LivestockLink Nigeria.">
+  <meta name="author" content="Monday Ogedengbe">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <script>
+    (function () {
+      var t = localStorage.getItem('livestocklink.theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">LL</span>LivestockLink<span class="dim">&nbsp;Nigeria</span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="marketplace.html">Marketplace</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-pressed="false" aria-label="Switch to dark theme">🌙</button>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="confirm-card">
+          <div class="confirm-badge">✓</div>
+          <h1 id="confirmTitle" style="font-size:1.6rem;">Submission received</h1>
+          <p id="confirmLede"></p>
+          <div class="receipt" id="confirmContent"></div>
+          <div style="margin-top:22px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a href="marketplace.html" class="btn btn-primary">Back to marketplace</a>
+            <a href="index.html" class="btn btn-ghost">Return home</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>LivestockLink Nigeria</h4>
+          <p style="opacity:.85; font-size:.9rem; max-width:32ch;">A searchable directory connecting livestock farmers with wholesale buyers, state by state.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="about.html#register">Register your farm</a></li>
+            <li><a href="attributions.html">Attributions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div class="social-list">
+            <a class="social-link" href="https://facebook.com/livestocklinkng" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-facebook"></use></svg></span> Facebook
+            </a>
+            <a class="social-link" href="https://x.com/livestocklinkng" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-x"></use></svg></span> Twitter / X
+            </a>
+            <a class="social-link" href="https://linkedin.com/company/livestocklinkng" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-linkedin"></use></svg></span> LinkedIn
+            </a>
+            <a class="social-link" href="https://github.com/livestocklinkng" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-github"></use></svg></span> GitHub
+            </a>
+            <a class="social-link" href="https://wa.me/2348033638719" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-whatsapp"></use></svg></span> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 LivestockLink Nigeria. Student project by Monday Ogedengbe.</span>
+        <span>Built with HTML, CSS &amp; JavaScript — no frameworks.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/thank-you.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="grasscutter icon">
+  <circle cx="32" cy="32" r="30" fill="#EAF1EC" stroke="#F1D28A" stroke-width="2"/>
+  <svg x="8" y="8" width="48" height="48" viewBox="0 0 48 48">
+    
+    <path d="M8 30c0-6 6-11 15-11 8 0 14 4 17 3l1 4-4 1c-1 3-4 5-6 5l1 6h-4l-1-5c-2 .5-4 .7-6 .5l-1 5h-4l1-6c-6-1-9-4-9-2.5z" fill="none" stroke="#1F4D3D" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M18 19l6-6" stroke="#1F4D3D" stroke-width="2" stroke-linecap="round"/>
+    <path d="M19 13l-1 6M23 12l1 6" stroke="#1F4D3D" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="16" cy="24" r="1.3" fill="#1F4D3D"/>
+    <path d="M8 30c-2 1-3 3-3 3" stroke="#1F4D3D" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  
+  </svg>
+</svg>

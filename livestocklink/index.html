@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LivestockLink Nigeria — Find Livestock Farms by State</title>
+  <meta name="description" content="LivestockLink Nigeria is a searchable directory connecting livestock farmers with wholesale buyers by state and livestock type — pigs, broilers, snails, goats, fish, cattle and more.">
+  <meta name="author" content="Monday Ogedengbe">
+  <meta property="og:title" content="LivestockLink Nigeria">
+  <meta property="og:description" content="A searchable directory connecting livestock farmers with wholesale buyers by state and livestock type.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <script>
+    (function () {
+      var t = localStorage.getItem('livestocklink.theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">LL</span>LivestockLink<span class="dim">&nbsp;Nigeria</span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="marketplace.html">Marketplace</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-pressed="false" aria-label="Switch to dark theme">🌙</button>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Farm gate to wholesale, in three clicks</p>
+          <h1>Nigeria's livestock, <em>found by state</em>.</h1>
+          <p class="lede">LivestockLink connects wholesale buyers directly with piggeries, poultry farms, snaileries, goat ranches, fisheries and more — searchable by state and livestock type, no more word-of-mouth guesswork.</p>
+          <div class="hero-actions">
+            <a href="marketplace.html" class="btn btn-primary">Browse the marketplace</a>
+            <a href="about.html#register" class="btn btn-outline">Register your farm</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="plate p1">
+            <svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-pig"></use></svg>
+            <span class="tag">₦65,000 / pig</span>
+            <span class="name">Adeyemi Piggery</span>
+          </div>
+          <div class="plate p2">
+            <svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-fish"></use></svg>
+            <span class="tag">₦900 / catfish</span>
+            <span class="name">Delta Catfish Ponds</span>
+          </div>
+          <div class="plate p3">
+            <svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-goat"></use></svg>
+            <span class="tag">₦48,000 / goat</span>
+            <span class="name">Bala Goat Ranch</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker-wrap" aria-hidden="true">
+      <div class="ticker" id="tickerTrack"></div>
+    </div>
+
+    <section class="stats section">
+      <div class="container">
+        <p class="eyebrow">The market, in numbers</p>
+        <h2>Why buyers are switching to LivestockLink</h2>
+        <div class="stats-grid" id="statsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Featured listings</p>
+            <h2>Verified farms ready to supply</h2>
+            <p>A snapshot of the directory — head to the marketplace to filter all listings by state and livestock type.</p>
+          </div>
+          <a href="marketplace.html" class="btn btn-outline">View full marketplace</a>
+        </div>
+        <div class="farm-grid" id="featuredGrid">
+          <p>Loading farm listings…</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" id="modalPanel" role="dialog" aria-modal="true" aria-label="Farm details"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>LivestockLink Nigeria</h4>
+          <p style="opacity:.85; font-size:.9rem; max-width:32ch;">A searchable directory connecting livestock farmers with wholesale buyers, state by state.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="about.html#register">Register your farm</a></li>
+            <li><a href="attributions.html">Attributions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div class="social-list">
+            <a class="social-link" href="#" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-facebook"></use></svg></span> Facebook
+            </a>
+            <a class="social-link" href="#" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-x"></use></svg></span> Twitter / X
+            </a>
+            <a class="social-link" href="#" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-linkedin"></use></svg></span> LinkedIn
+            </a>
+            <a class="social-link" href="#" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-github"></use></svg></span> GitHub
+            </a>
+            <a class="social-link" href="https://wa.me/2348033638719" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-whatsapp"></use></svg></span> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 LivestockLink Nigeria. Student project by Monday Ogedengbe.</span>
+        <span>Built with HTML, CSS &amp; JavaScript — no frameworks.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "f01",
+    "farmName": "Eze Cattle Ranch",
+    "tagline": "Farm-gate cattle, sold by the batch",
+    "ownerName": "Aminu Eze",
+    "state": "Sokoto",
+    "town": "Sokoto",
+    "address": "Sokoto, Sokoto State",
+    "livestockTypes": [
+      "Cattle"
+    ],
+    "varieties": [
+      "Bulls",
+      "Adamawa Gudali",
+      "Sokoto Gudali"
+    ],
+    "quantity": 75,
+    "unit": "cattle",
+    "pricePerUnit": 348550,
+    "phone": "0803 792 9935",
+    "email": "ezecattleranch@ezecattleranch.ng",
+    "website": "https://www.ezecattleranch.ng",
+    "image": "images/icons/cattle.svg",
+    "bio": "Aminu Eze runs a growing cattle operation just outside Sokoto, focused on consistent quality for wholesale buyers in Sokoto and neighbouring states.",
+    "description": "Bulls, Adamawa Gudali, Sokoto Gudali available. Farm-gate pickup or delivery within the state can be arranged.",
+    "icon": "cattle",
+    "verified": true
+  },
+  {
+    "id": "f02",
+    "farmName": "Effiong Goat Ranch",
+    "tagline": "Kebbi's trusted source for farm-ready goats",
+    "ownerName": "Nnamdi Effiong",
+    "state": "Kebbi",
+    "town": "Birnin Kebbi",
+    "address": "Birnin Kebbi, Kebbi State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Kids",
+      "Sahel",
+      "Bucks"
+    ],
+    "quantity": 190,
+    "unit": "goats",
+    "pricePerUnit": 43600,
+    "phone": "0808 703 5557",
+    "email": "effionggoatranch@effionggoatranch.ng",
+    "website": "https://www.effionggoatranch.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "Nnamdi Effiong runs a growing goats operation just outside Birnin Kebbi, focused on consistent quality for wholesale buyers in Kebbi and neighbouring states.",
+    "description": "Stock includes Kids, Sahel, Bucks. Bulk discounts available for orders above the listed minimum.",
+    "icon": "goat",
+    "verified": true
+  },
+  {
+    "id": "f03",
+    "farmName": "Ogunleye Sheep Ranch",
+    "tagline": "Farm-gate sheep, sold by the batch",
+    "ownerName": "Chiamaka Ogunleye",
+    "state": "Zamfara",
+    "town": "Gusau",
+    "address": "Gusau, Zamfara State",
+    "livestockTypes": [
+      "Sheep"
+    ],
+    "varieties": [
+      "Rams",
+      "Yankasa",
+      "Uda"
+    ],
+    "quantity": 160,
+    "unit": "sheep",
+    "pricePerUnit": 75900,
+    "phone": "0807 926 1711",
+    "email": "ogunleyesheepranch@ogunleyesheepranch.ng",
+    "website": "https://www.ogunleyesheepranch.ng",
+    "image": "images/icons/sheep.svg",
+    "bio": "Chiamaka Ogunleye started with a handful of sheep in 2021 and has since grown into one of the more reliable suppliers around Gusau, Zamfara.",
+    "description": "Rams, Yankasa, Uda available. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "sheep",
+    "verified": true
+  },
+  {
+    "id": "f04",
+    "farmName": "Umeh Farms",
+    "tagline": "Katsina's trusted source for farm-ready poultry",
+    "ownerName": "Aminu Umeh",
+    "state": "Katsina",
+    "town": "Katsina",
+    "address": "Katsina, Katsina State",
+    "livestockTypes": [
+      "Poultry"
+    ],
+    "varieties": [
+      "Noiler birds",
+      "Broilers",
+      "Layers"
+    ],
+    "quantity": 1510,
+    "unit": "birds",
+    "pricePerUnit": 2300,
+    "phone": "0806 891 5741",
+    "email": "umehfarms@umehfarms.ng",
+    "website": "https://www.umehfarms.ng",
+    "image": "images/icons/broiler.svg",
+    "bio": "Aminu Umeh started with a handful of poultry in 2015 and has since grown into one of the more reliable suppliers around Katsina, Katsina.",
+    "description": "Stock includes Noiler birds, Broilers, Layers. Cold-chain packing available for buyers outside the state.",
+    "icon": "broiler",
+    "verified": false
+  },
+  {
+    "id": "f05",
+    "farmName": "Ekiugbo Ranch",
+    "tagline": "Jigawa's trusted source for farm-ready cattle",
+    "ownerName": "Godwin Ekiugbo",
+    "state": "Jigawa",
+    "town": "Dutse",
+    "address": "Dutse, Jigawa State",
+    "livestockTypes": [
+      "Cattle"
+    ],
+    "varieties": [
+      "Adamawa Gudali",
+      "Sokoto Gudali",
+      "Fattened"
+    ],
+    "quantity": 145,
+    "unit": "cattle",
+    "pricePerUnit": 452700,
+    "phone": "0803 723 3803",
+    "email": "ekiugboranch@ekiugboranch.ng",
+    "website": "https://www.ekiugboranch.ng",
+    "image": "images/icons/cattle.svg",
+    "bio": "Godwin Ekiugbo took over the family cattle operation in Dutse and modernised it with better housing and record-keeping, now serving buyers across Jigawa and beyond.",
+    "description": "Stock includes Adamawa Gudali, Sokoto Gudali, Fattened. Vaccination and health records provided on request.",
+    "icon": "cattle",
+    "verified": false
+  },
+  {
+    "id": "f06",
+    "farmName": "Fasanmi Farms",
+    "tagline": "Kano's trusted source for farm-ready goats",
+    "ownerName": "Patience Fasanmi",
+    "state": "Kano",
+    "town": "Kano",
+    "address": "Kano, Kano State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Bucks",
+      "Red Sokoto",
+      "Sahel"
+    ],
+    "quantity": 70,
+    "unit": "goats",
+    "pricePerUnit": 58600,
+    "phone": "0807 510 5386",
+    "email": "fasanmifarms@fasanmifarms.ng",
+    "website": "https://www.fasanmifarms.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "A second-generation farmer, Patience Fasanmi expanded the Kano family holding into a full goats operation supplying markets across Kano.",
+    "description": "Stock includes Bucks, Red Sokoto, Sahel. Bulk discounts available for orders above the listed minimum.",
+    "icon": "goat",
+    "verified": false
+  },
+  {
+    "id": "f07",
+    "farmName": "Abdullahi Sheep Ranch",
+    "tagline": "Kaduna's trusted source for farm-ready sheep",
+    "ownerName": "Aliyu Abdullahi",
+    "state": "Kaduna",
+    "town": "Zaria",
+    "address": "Zaria, Kaduna State",
+    "livestockTypes": [
+      "Sheep"
+    ],
+    "varieties": [
+      "Uda",
+      "Balami",
+      "Ewes"
+    ],
+    "quantity": 130,
+    "unit": "sheep",
+    "pricePerUnit": 83200,
+    "phone": "0809 538 7543",
+    "email": "abdullahisheepranch@abdullahisheepranch.ng",
+    "website": "https://www.abdullahisheepranch.ng",
+    "image": "images/icons/sheep.svg",
+    "bio": "Aliyu Abdullahi took over the family sheep operation in Zaria and modernised it with better housing and record-keeping, now serving buyers across Kaduna and beyond.",
+    "description": "Stock includes Uda, Balami, Ewes. Farm-gate pickup or delivery within the state can be arranged.",
+    "icon": "sheep",
+    "verified": false
+  },
+  {
+    "id": "f08",
+    "farmName": "Eze Cattle Post",
+    "tagline": "Bulk cattle, straight from Bauchi to your buyers",
+    "ownerName": "Emeka Eze",
+    "state": "Bauchi",
+    "town": "Bauchi",
+    "address": "Bauchi, Bauchi State",
+    "livestockTypes": [
+      "Cattle"
+    ],
+    "varieties": [
+      "Bulls",
+      "Sokoto Gudali",
+      "Calves"
+    ],
+    "quantity": 135,
+    "unit": "cattle",
+    "pricePerUnit": 333000,
+    "phone": "0808 490 8668",
+    "email": "ezecattlepost@ezecattlepost.ng",
+    "website": "https://www.ezecattlepost.ng",
+    "image": "images/icons/cattle.svg",
+    "bio": "A second-generation farmer, Emeka Eze expanded the Bauchi family holding into a full cattle operation supplying markets across Bauchi.",
+    "description": "Currently offering Bulls, Sokoto Gudali, Calves. Transport crating arranged for large orders.",
+    "icon": "cattle",
+    "verified": true
+  },
+  {
+    "id": "f09",
+    "farmName": "Yakubu Farms",
+    "tagline": "Gombe's trusted source for farm-ready goats",
+    "ownerName": "Patience Yakubu",
+    "state": "Gombe",
+    "town": "Gombe",
+    "address": "Gombe, Gombe State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Red Sokoto",
+      "West African Dwarf",
+      "Boer cross"
+    ],
+    "quantity": 110,
+    "unit": "goats",
+    "pricePerUnit": 49600,
+    "phone": "0803 839 5315",
+    "email": "yakubufarms@yakubufarms.ng",
+    "website": "https://www.yakubufarms.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "A second-generation farmer, Patience Yakubu expanded the Gombe family holding into a full goats operation supplying markets across Gombe.",
+    "description": "Currently offering Red Sokoto, West African Dwarf, Boer cross. Vaccination and health records provided on request.",
+    "icon": "goat",
+    "verified": false
+  },
+  {
+    "id": "f10",
+    "farmName": "Effiong Sheep Ranch",
+    "tagline": "Wholesale sheep supply out of Damaturu, Yobe",
+    "ownerName": "Nnamdi Effiong",
+    "state": "Yobe",
+    "town": "Damaturu",
+    "address": "Damaturu, Yobe State",
+    "livestockTypes": [
+      "Sheep"
+    ],
+    "varieties": [
+      "Balami",
+      "Uda",
+      "Lambs"
+    ],
+    "quantity": 215,
+    "unit": "sheep",
+    "pricePerUnit": 45000,
+    "phone": "0809 431 9005",
+    "email": "effiongsheepranch@effiongsheepranch.ng",
+    "website": "https://www.effiongsheepranch.ng",
+    "image": "images/icons/sheep.svg",
+    "bio": "After years working in trading, Nnamdi Effiong moved into sheep farming and built a steady supply chain out of Damaturu, Yobe.",
+    "description": "Balami, Uda, Lambs available. Farm-gate pickup or delivery within the state can be arranged.",
+    "icon": "sheep",
+    "verified": true
+  },
+  {
+    "id": "f11",
+    "farmName": "Mbanefo Poultry Farm",
+    "tagline": "Farm-gate poultry, sold by the batch",
+    "ownerName": "Segun Mbanefo",
+    "state": "Borno",
+    "town": "Maiduguri",
+    "address": "Maiduguri, Borno State",
+    "livestockTypes": [
+      "Poultry"
+    ],
+    "varieties": [
+      "Cockerels",
+      "Day-old chicks",
+      "Layers"
+    ],
+    "quantity": 2085,
+    "unit": "birds",
+    "pricePerUnit": 2600,
+    "phone": "0808 662 3705",
+    "email": "mbanefopoultryfarm@mbanefopoultryfarm.ng",
+    "website": "https://www.mbanefopoultryfarm.ng",
+    "image": "images/icons/broiler.svg",
+    "bio": "A second-generation farmer, Segun Mbanefo expanded the Maiduguri family holding into a full poultry operation supplying markets across Borno.",
+    "description": "Cockerels, Day-old chicks, Layers available. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "broiler",
+    "verified": false
+  },
+  {
+    "id": "f12",
+    "farmName": "Balogun Livestock Farm",
+    "tagline": "Wholesale cattle supply out of Yola, Adamawa",
+    "ownerName": "Ekaette Balogun",
+    "state": "Adamawa",
+    "town": "Yola",
+    "address": "Yola, Adamawa State",
+    "livestockTypes": [
+      "Cattle"
+    ],
+    "varieties": [
+      "Bulls",
+      "Fattened",
+      "Adamawa Gudali"
+    ],
+    "quantity": 110,
+    "unit": "cattle",
+    "pricePerUnit": 425950,
+    "phone": "0808 223 5061",
+    "email": "balogunlivestockfarm@balogunlivestockfarm.ng",
+    "website": "https://www.balogunlivestockfarm.ng",
+    "image": "images/icons/cattle.svg",
+    "bio": "After years working in teaching, Ekaette Balogun moved into cattle farming and built a steady supply chain out of Yola, Adamawa.",
+    "description": "Currently offering Bulls, Fattened, Adamawa Gudali. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "cattle",
+    "verified": true
+  },
+  {
+    "id": "f13",
+    "farmName": "Adeyemi Goat Ranch",
+    "tagline": "Farm-gate goats, sold by the batch",
+    "ownerName": "Terhemba Adeyemi",
+    "state": "Taraba",
+    "town": "Jalingo",
+    "address": "Jalingo, Taraba State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Does",
+      "Bucks",
+      "Red Sokoto"
+    ],
+    "quantity": 130,
+    "unit": "goats",
+    "pricePerUnit": 39700,
+    "phone": "0803 980 6413",
+    "email": "adeyemigoatranch@adeyemigoatranch.ng",
+    "website": "https://www.adeyemigoatranch.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "Terhemba Adeyemi took over the family goats operation in Jalingo and modernised it with better housing and record-keeping, now serving buyers across Taraba and beyond.",
+    "description": "Currently offering Does, Bucks, Red Sokoto. Cold-chain packing available for buyers outside the state.",
+    "icon": "goat",
+    "verified": true
+  },
+  {
+    "id": "f14",
+    "farmName": "Anyaoku Livestock Farm",
+    "tagline": "Reliable cattle supply for wholesale orders",
+    "ownerName": "Emeka Anyaoku",
+    "state": "Niger",
+    "town": "Minna",
+    "address": "Minna, Niger State",
+    "livestockTypes": [
+      "Cattle"
+    ],
+    "varieties": [
+      "Sokoto Gudali",
+      "Calves",
+      "Bulls"
+    ],
+    "quantity": 70,
+    "unit": "cattle",
+    "pricePerUnit": 339300,
+    "phone": "0803 774 8062",
+    "email": "anyaokulivestockfarm@anyaokulivestockfarm.ng",
+    "website": "https://www.anyaokulivestockfarm.ng",
+    "image": "images/icons/cattle.svg",
+    "bio": "Emeka Anyaoku runs a growing cattle operation just outside Minna, focused on consistent quality for wholesale buyers in Niger and neighbouring states.",
+    "description": "Currently offering Sokoto Gudali, Calves, Bulls. Farm-gate pickup or delivery within the state can be arranged.",
+    "icon": "cattle",
+    "verified": false
+  },
+  {
+    "id": "f15",
+    "farmName": "Bala Grove",
+    "tagline": "Reliable goats supply for wholesale orders",
+    "ownerName": "Grace Bala",
+    "state": "Kwara",
+    "town": "Ilorin",
+    "address": "Ilorin, Kwara State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Does",
+      "West African Dwarf",
+      "Red Sokoto"
+    ],
+    "quantity": 135,
+    "unit": "goats",
+    "pricePerUnit": 42900,
+    "phone": "0806 649 8350",
+    "email": "balagrove@balagrove.ng",
+    "website": "https://www.balagrove.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "Grace Bala took over the family goats operation in Ilorin and modernised it with better housing and record-keeping, now serving buyers across Kwara and beyond.",
+    "description": "Stock includes Does, West African Dwarf, Red Sokoto. Bulk discounts available for orders above the listed minimum.",
+    "icon": "goat",
+    "verified": false
+  },
+  {
+    "id": "f16",
+    "farmName": "Onyekwere Farms",
+    "tagline": "Reliable sheep supply for wholesale orders",
+    "ownerName": "Chidi Onyekwere",
+    "state": "Kogi",
+    "town": "Lokoja",
+    "address": "Lokoja, Kogi State",
+    "livestockTypes": [
+      "Sheep"
+    ],
+    "varieties": [
+      "Yankasa",
+      "Lambs",
+      "Ewes"
+    ],
+    "quantity": 75,
+    "unit": "sheep",
+    "pricePerUnit": 83550,
+    "phone": "0806 270 7658",
+    "email": "onyekwerefarms@onyekwerefarms.ng",
+    "website": "https://www.onyekwerefarms.ng",
+    "image": "images/icons/sheep.svg",
+    "bio": "Chidi Onyekwere took over the family sheep operation in Lokoja and modernised it with better housing and record-keeping, now serving buyers across Kogi and beyond.",
+    "description": "Yankasa, Lambs, Ewes available. Bulk discounts available for orders above the listed minimum.",
+    "icon": "sheep",
+    "verified": true
+  },
+  {
+    "id": "f17",
+    "farmName": "Nwachukwu Fish Farm",
+    "tagline": "Wholesale fish supply out of Makurdi, Benue",
+    "ownerName": "Aliyu Nwachukwu",
+    "state": "Benue",
+    "town": "Makurdi",
+    "address": "Makurdi, Benue State",
+    "livestockTypes": [
+      "Fish"
+    ],
+    "varieties": [
+      "Tilapia",
+      "Catfish table-size",
+      "Broodstock"
+    ],
+    "quantity": 6170,
+    "unit": "catfish",
+    "pricePerUnit": 800,
+    "phone": "0807 322 1958",
+    "email": "nwachukwufishfarm@nwachukwufishfarm.ng",
+    "website": "https://www.nwachukwufishfarm.ng",
+    "image": "images/icons/fish.svg",
+    "bio": "After years working in teaching, Aliyu Nwachukwu moved into fish farming and built a steady supply chain out of Makurdi, Benue.",
+    "description": "Tilapia, Catfish table-size, Broodstock available. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "fish",
+    "verified": true
+  },
+  {
+    "id": "f18",
+    "farmName": "Ekiugbo Poultry Farm",
+    "tagline": "Wholesale poultry supply out of Lafia, Nasarawa",
+    "ownerName": "Comfort Ekiugbo",
+    "state": "Nasarawa",
+    "town": "Lafia",
+    "address": "Lafia, Nasarawa State",
+    "livestockTypes": [
+      "Poultry"
+    ],
+    "varieties": [
+      "Noiler birds",
+      "Day-old chicks",
+      "Cockerels"
+    ],
+    "quantity": 1500,
+    "unit": "birds",
+    "pricePerUnit": 4100,
+    "phone": "0803 791 4853",
+    "email": "ekiugbopoultryfarm@ekiugbopoultryfarm.ng",
+    "website": "https://www.ekiugbopoultryfarm.ng",
+    "image": "images/icons/broiler.svg",
+    "bio": "A second-generation farmer, Comfort Ekiugbo expanded the Lafia family holding into a full poultry operation supplying markets across Nasarawa.",
+    "description": "Currently offering Noiler birds, Day-old chicks, Cockerels. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "broiler",
+    "verified": true
+  },
+  {
+    "id": "f19",
+    "farmName": "Ojo Poultry Farm",
+    "tagline": "Bulk turkey, straight from Jos to your buyers",
+    "ownerName": "Chidi Ojo",
+    "state": "Plateau",
+    "town": "Jos",
+    "address": "Jos, Plateau State",
+    "livestockTypes": [
+      "Turkey"
+    ],
+    "varieties": [
+      "Growers",
+      "Poults (day-old)",
+      "Mature dressed"
+    ],
+    "quantity": 505,
+    "unit": "turkeys",
+    "pricePerUnit": 21350,
+    "phone": "0808 234 5915",
+    "email": "ojopoultryfarm@ojopoultryfarm.ng",
+    "website": "https://www.ojopoultryfarm.ng",
+    "image": "images/icons/turkey.svg",
+    "bio": "Chidi Ojo started with a handful of turkey in 2021 and has since grown into one of the more reliable suppliers around Jos, Plateau.",
+    "description": "Stock includes Growers, Poults (day-old), Mature dressed. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "turkey",
+    "verified": false
+  },
+  {
+    "id": "f20",
+    "farmName": "Okonkwo Grasscutter Farm",
+    "tagline": "Reliable grasscutters supply for wholesale orders",
+    "ownerName": "Yusuf Okonkwo",
+    "state": "FCT",
+    "town": "Abuja",
+    "address": "Abuja, FCT State",
+    "livestockTypes": [
+      "Grasscutters"
+    ],
+    "varieties": [
+      "Breeding pairs",
+      "Mature",
+      "Weaners"
+    ],
+    "quantity": 95,
+    "unit": "grasscutters",
+    "pricePerUnit": 12850,
+    "phone": "0806 478 5669",
+    "email": "okonkwograsscutterfarm@okonkwograsscutterfarm.ng",
+    "website": "https://www.okonkwograsscutterfarm.ng",
+    "image": "images/icons/grasscutter.svg",
+    "bio": "A second-generation farmer, Yusuf Okonkwo expanded the Abuja family holding into a full grasscutters operation supplying markets across FCT.",
+    "description": "Stock includes Breeding pairs, Mature, Weaners. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "grasscutter",
+    "verified": false
+  },
+  {
+    "id": "f21",
+    "farmName": "Adeyemi Farms",
+    "tagline": "Bulk pigs, straight from Ikorodu to your buyers",
+    "ownerName": "Comfort Adeyemi",
+    "state": "Lagos",
+    "town": "Ikorodu",
+    "address": "Ikorodu, Lagos State",
+    "livestockTypes": [
+      "Pigs"
+    ],
+    "varieties": [
+      "Growers",
+      "Mature/Finishers",
+      "Large White"
+    ],
+    "quantity": 100,
+    "unit": "live pigs",
+    "pricePerUnit": 68500,
+    "phone": "0803 209 3546",
+    "email": "adeyemifarms@adeyemifarms.ng",
+    "website": "https://www.adeyemifarms.ng",
+    "image": "images/icons/pig.svg",
+    "bio": "A second-generation farmer, Comfort Adeyemi expanded the Ikorodu family holding into a full pigs operation supplying markets across Lagos.",
+    "description": "Currently offering Growers, Mature/Finishers, Large White. Vaccination and health records provided on request.",
+    "icon": "pig",
+    "verified": true
+  },
+  {
+    "id": "f22",
+    "farmName": "Nwachukwu Agro Farms",
+    "tagline": "Bulk poultry, straight from Abeokuta to your buyers",
+    "ownerName": "Aminu Nwachukwu",
+    "state": "Ogun",
+    "town": "Abeokuta",
+    "address": "Abeokuta, Ogun State",
+    "livestockTypes": [
+      "Poultry"
+    ],
+    "varieties": [
+      "Layers",
+      "Day-old chicks",
+      "Cockerels"
+    ],
+    "quantity": 5135,
+    "unit": "birds",
+    "pricePerUnit": 3050,
+    "phone": "0803 103 6464",
+    "email": "nwachukwuagrofarms@nwachukwuagrofarms.ng",
+    "website": "https://www.nwachukwuagrofarms.ng",
+    "image": "images/icons/broiler.svg",
+    "bio": "Aminu Nwachukwu took over the family poultry operation in Abeokuta and modernised it with better housing and record-keeping, now serving buyers across Ogun and beyond.",
+    "description": "Stock includes Layers, Day-old chicks, Cockerels. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "broiler",
+    "verified": false
+  },
+  {
+    "id": "f23",
+    "farmName": "Adeyemi Rabbitry",
+    "tagline": "Wholesale rabbits supply out of Ibadan, Oyo",
+    "ownerName": "Musa Adeyemi",
+    "state": "Oyo",
+    "town": "Ibadan",
+    "address": "Ibadan, Oyo State",
+    "livestockTypes": [
+      "Rabbits"
+    ],
+    "varieties": [
+      "New Zealand White",
+      "Chinchilla",
+      "Breeding does"
+    ],
+    "quantity": 385,
+    "unit": "rabbits",
+    "pricePerUnit": 7350,
+    "phone": "0809 251 8041",
+    "email": "adeyemirabbitry@adeyemirabbitry.ng",
+    "website": "https://www.adeyemirabbitry.ng",
+    "image": "images/icons/rabbit.svg",
+    "bio": "After years working in trading, Musa Adeyemi moved into rabbits farming and built a steady supply chain out of Ibadan, Oyo.",
+    "description": "New Zealand White, Chinchilla, Breeding does available. Vaccination and health records provided on request.",
+    "icon": "rabbit",
+    "verified": true
+  },
+  {
+    "id": "f24",
+    "farmName": "Ogunleye Poultry Farm",
+    "tagline": "Bulk turkey, straight from Ilesa to your buyers",
+    "ownerName": "Adaobi Ogunleye",
+    "state": "Osun",
+    "town": "Ilesa",
+    "address": "Ilesa, Osun State",
+    "livestockTypes": [
+      "Turkey"
+    ],
+    "varieties": [
+      "Mature dressed",
+      "Growers",
+      "Poults (day-old)"
+    ],
+    "quantity": 500,
+    "unit": "turkeys",
+    "pricePerUnit": 20050,
+    "phone": "0806 522 1406",
+    "email": "ogunleyepoultryfarm@ogunleyepoultryfarm.ng",
+    "website": "https://www.ogunleyepoultryfarm.ng",
+    "image": "images/icons/turkey.svg",
+    "bio": "Adaobi Ogunleye runs a growing turkey operation just outside Ilesa, focused on consistent quality for wholesale buyers in Osun and neighbouring states.",
+    "description": "Currently offering Mature dressed, Growers, Poults (day-old). Bulk discounts available for orders above the listed minimum.",
+    "icon": "turkey",
+    "verified": true
+  },
+  {
+    "id": "f25",
+    "farmName": "Ogunleye Fish Farm",
+    "tagline": "Ondo's trusted source for farm-ready fish",
+    "ownerName": "Tobenna Ogunleye",
+    "state": "Ondo",
+    "town": "Akure",
+    "address": "Akure, Ondo State",
+    "livestockTypes": [
+      "Fish"
+    ],
+    "varieties": [
+      "Catfish juveniles",
+      "Catfish table-size",
+      "Broodstock"
+    ],
+    "quantity": 7085,
+    "unit": "catfish",
+    "pricePerUnit": 1050,
+    "phone": "0808 458 6000",
+    "email": "ogunleyefishfarm@ogunleyefishfarm.ng",
+    "website": "https://www.ogunleyefishfarm.ng",
+    "image": "images/icons/fish.svg",
+    "bio": "Tobenna Ogunleye started with a handful of fish in 2017 and has since grown into one of the more reliable suppliers around Akure, Ondo.",
+    "description": "Catfish juveniles, Catfish table-size, Broodstock available. Cold-chain packing available for buyers outside the state.",
+    "icon": "fish",
+    "verified": true
+  },
+  {
+    "id": "f26",
+    "farmName": "Okonkwo Farms",
+    "tagline": "Wholesale grasscutters supply out of Ado-Ekiti, Ekiti",
+    "ownerName": "Emeka Okonkwo",
+    "state": "Ekiti",
+    "town": "Ado-Ekiti",
+    "address": "Ado-Ekiti, Ekiti State",
+    "livestockTypes": [
+      "Grasscutters"
+    ],
+    "varieties": [
+      "Mature",
+      "Breeding pairs",
+      "Weaners"
+    ],
+    "quantity": 40,
+    "unit": "grasscutters",
+    "pricePerUnit": 13450,
+    "phone": "0807 282 5349",
+    "email": "okonkwofarms@okonkwofarms.ng",
+    "website": "https://www.okonkwofarms.ng",
+    "image": "images/icons/grasscutter.svg",
+    "bio": "A second-generation farmer, Emeka Okonkwo expanded the Ado-Ekiti family holding into a full grasscutters operation supplying markets across Ekiti.",
+    "description": "Stock includes Mature, Breeding pairs, Weaners. Transport crating arranged for large orders.",
+    "icon": "grasscutter",
+    "verified": false
+  },
+  {
+    "id": "f27",
+    "farmName": "Effiong Ponds",
+    "tagline": "Rivers's trusted source for farm-ready fish",
+    "ownerName": "Nkechi Effiong",
+    "state": "Rivers",
+    "town": "Port Harcourt",
+    "address": "Port Harcourt, Rivers State",
+    "livestockTypes": [
+      "Fish"
+    ],
+    "varieties": [
+      "Catfish juveniles",
+      "Catfish table-size",
+      "Broodstock"
+    ],
+    "quantity": 8215,
+    "unit": "catfish",
+    "pricePerUnit": 750,
+    "phone": "0808 101 9518",
+    "email": "effiongponds@effiongponds.ng",
+    "website": "https://www.effiongponds.ng",
+    "image": "images/icons/fish.svg",
+    "bio": "After years working in transportation, Nkechi Effiong moved into fish farming and built a steady supply chain out of Port Harcourt, Rivers.",
+    "description": "Catfish juveniles, Catfish table-size, Broodstock available. Transport crating arranged for large orders.",
+    "icon": "fish",
+    "verified": false
+  },
+  {
+    "id": "f28",
+    "farmName": "Musa Farms",
+    "tagline": "Bayelsa's trusted source for farm-ready snails",
+    "ownerName": "Uche Musa",
+    "state": "Bayelsa",
+    "town": "Yenagoa",
+    "address": "Yenagoa, Bayelsa State",
+    "livestockTypes": [
+      "Snails"
+    ],
+    "varieties": [
+      "Achatina achatina (Jumbo)",
+      "Achatina marginata",
+      "Archachatina marginata"
+    ],
+    "quantity": 9825,
+    "unit": "snails",
+    "pricePerUnit": 350,
+    "phone": "0807 512 5844",
+    "email": "musafarms@musafarms.ng",
+    "website": "https://www.musafarms.ng",
+    "image": "images/icons/snail.svg",
+    "bio": "Uche Musa took over the family snails operation in Yenagoa and modernised it with better housing and record-keeping, now serving buyers across Bayelsa and beyond.",
+    "description": "Currently offering Achatina achatina (Jumbo), Achatina marginata, Archachatina marginata. Cold-chain packing available for buyers outside the state.",
+    "icon": "snail",
+    "verified": false
+  },
+  {
+    "id": "f29",
+    "farmName": "Danladi Farms",
+    "tagline": "Reliable pigs supply for wholesale orders",
+    "ownerName": "Wale Danladi",
+    "state": "Delta",
+    "town": "Warri",
+    "address": "Warri, Delta State",
+    "livestockTypes": [
+      "Pigs"
+    ],
+    "varieties": [
+      "Growers",
+      "Weaners",
+      "Boars"
+    ],
+    "quantity": 60,
+    "unit": "live pigs",
+    "pricePerUnit": 70550,
+    "phone": "0807 315 8043",
+    "email": "danladifarms@danladifarms.ng",
+    "website": "https://www.danladifarms.ng",
+    "image": "images/icons/pig.svg",
+    "bio": "Wale Danladi runs a growing pigs operation just outside Warri, focused on consistent quality for wholesale buyers in Delta and neighbouring states.",
+    "description": "Currently offering Growers, Weaners, Boars. Bulk discounts available for orders above the listed minimum.",
+    "icon": "pig",
+    "verified": true
+  },
+  {
+    "id": "f30",
+    "farmName": "Mbanefo Farms",
+    "tagline": "Wholesale poultry supply out of Calabar, Cross River",
+    "ownerName": "Halima Mbanefo",
+    "state": "Cross River",
+    "town": "Calabar",
+    "address": "Calabar, Cross River State",
+    "livestockTypes": [
+      "Poultry"
+    ],
+    "varieties": [
+      "Noiler birds",
+      "Layers",
+      "Day-old chicks"
+    ],
+    "quantity": 3205,
+    "unit": "birds",
+    "pricePerUnit": 4350,
+    "phone": "0807 330 4262",
+    "email": "mbanefofarms@mbanefofarms.ng",
+    "website": "https://www.mbanefofarms.ng",
+    "image": "images/icons/broiler.svg",
+    "bio": "Halima Mbanefo started with a handful of poultry in 2016 and has since grown into one of the more reliable suppliers around Calabar, Cross River.",
+    "description": "Stock includes Noiler birds, Layers, Day-old chicks. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "broiler",
+    "verified": false
+  },
+  {
+    "id": "f31",
+    "farmName": "Abdullahi Grove",
+    "tagline": "Wholesale goats supply out of Uyo, Akwa Ibom",
+    "ownerName": "Chidi Abdullahi",
+    "state": "Akwa Ibom",
+    "town": "Uyo",
+    "address": "Uyo, Akwa Ibom State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Does",
+      "Kids",
+      "Sahel"
+    ],
+    "quantity": 180,
+    "unit": "goats",
+    "pricePerUnit": 50650,
+    "phone": "0808 349 3417",
+    "email": "abdullahigrove@abdullahigrove.ng",
+    "website": "https://www.abdullahigrove.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "Chidi Abdullahi runs a growing goats operation just outside Uyo, focused on consistent quality for wholesale buyers in Akwa Ibom and neighbouring states.",
+    "description": "Does, Kids, Sahel available. Transport crating arranged for large orders.",
+    "icon": "goat",
+    "verified": true
+  },
+  {
+    "id": "f32",
+    "farmName": "Salihu Fisheries",
+    "tagline": "Farm-gate fish, sold by the batch",
+    "ownerName": "Ibrahim Salihu",
+    "state": "Edo",
+    "town": "Benin City",
+    "address": "Benin City, Edo State",
+    "livestockTypes": [
+      "Fish"
+    ],
+    "varieties": [
+      "Catfish juveniles",
+      "Catfish table-size",
+      "Broodstock"
+    ],
+    "quantity": 12515,
+    "unit": "catfish",
+    "pricePerUnit": 1000,
+    "phone": "0809 672 6198",
+    "email": "salihufisheries@salihufisheries.ng",
+    "website": "https://www.salihufisheries.ng",
+    "image": "images/icons/fish.svg",
+    "bio": "A second-generation farmer, Ibrahim Salihu expanded the Benin City family holding into a full fish operation supplying markets across Edo.",
+    "description": "Currently offering Catfish juveniles, Catfish table-size, Broodstock. Cold-chain packing available for buyers outside the state.",
+    "icon": "fish",
+    "verified": false
+  },
+  {
+    "id": "f33",
+    "farmName": "Onyekwere Farms",
+    "tagline": "Bulk poultry, straight from Umuahia to your buyers",
+    "ownerName": "Maryam Onyekwere",
+    "state": "Abia",
+    "town": "Umuahia",
+    "address": "Umuahia, Abia State",
+    "livestockTypes": [
+      "Poultry"
+    ],
+    "varieties": [
+      "Broilers",
+      "Layers",
+      "Cockerels"
+    ],
+    "quantity": 5760,
+    "unit": "birds",
+    "pricePerUnit": 4200,
+    "phone": "0806 381 8206",
+    "email": "onyekwerefarms@onyekwerefarms.ng",
+    "website": "https://www.onyekwerefarms.ng",
+    "image": "images/icons/broiler.svg",
+    "bio": "Maryam Onyekwere took over the family poultry operation in Umuahia and modernised it with better housing and record-keeping, now serving buyers across Abia and beyond.",
+    "description": "Stock includes Broilers, Layers, Cockerels. Vaccination and health records provided on request.",
+    "icon": "broiler",
+    "verified": false
+  },
+  {
+    "id": "f34",
+    "farmName": "Owolabi Turkey Farms",
+    "tagline": "Reliable turkey supply for wholesale orders",
+    "ownerName": "Chidi Owolabi",
+    "state": "Anambra",
+    "town": "Onitsha",
+    "address": "Onitsha, Anambra State",
+    "livestockTypes": [
+      "Turkey"
+    ],
+    "varieties": [
+      "Poults (day-old)",
+      "Growers",
+      "Mature dressed"
+    ],
+    "quantity": 470,
+    "unit": "turkeys",
+    "pricePerUnit": 18800,
+    "phone": "0808 517 6421",
+    "email": "owolabiturkeyfarms@owolabiturkeyfarms.ng",
+    "website": "https://www.owolabiturkeyfarms.ng",
+    "image": "images/icons/turkey.svg",
+    "bio": "Chidi Owolabi runs a growing turkey operation just outside Onitsha, focused on consistent quality for wholesale buyers in Anambra and neighbouring states.",
+    "description": "Poults (day-old), Growers, Mature dressed available. Cold-chain packing available for buyers outside the state.",
+    "icon": "turkey",
+    "verified": true
+  },
+  {
+    "id": "f35",
+    "farmName": "Bello Ponds",
+    "tagline": "Farm-gate fish, sold by the batch",
+    "ownerName": "Abubakar Bello",
+    "state": "Ebonyi",
+    "town": "Abakaliki",
+    "address": "Abakaliki, Ebonyi State",
+    "livestockTypes": [
+      "Fish"
+    ],
+    "varieties": [
+      "Catfish juveniles",
+      "Tilapia",
+      "Catfish table-size"
+    ],
+    "quantity": 12765,
+    "unit": "catfish",
+    "pricePerUnit": 750,
+    "phone": "0807 405 7389",
+    "email": "belloponds@belloponds.ng",
+    "website": "https://www.belloponds.ng",
+    "image": "images/icons/fish.svg",
+    "bio": "A second-generation farmer, Abubakar Bello expanded the Abakaliki family holding into a full fish operation supplying markets across Ebonyi.",
+    "description": "Catfish juveniles, Tilapia, Catfish table-size available. Cold-chain packing available for buyers outside the state.",
+    "icon": "fish",
+    "verified": true
+  },
+  {
+    "id": "f36",
+    "farmName": "Onuoha Snailery",
+    "tagline": "Reliable snails supply for wholesale orders",
+    "ownerName": "Nkechi Onuoha",
+    "state": "Enugu",
+    "town": "Nsukka",
+    "address": "Nsukka, Enugu State",
+    "livestockTypes": [
+      "Snails"
+    ],
+    "varieties": [
+      "Achatina marginata",
+      "Archachatina marginata",
+      "Achatina achatina (Jumbo)"
+    ],
+    "quantity": 4690,
+    "unit": "snails",
+    "pricePerUnit": 350,
+    "phone": "0806 737 9751",
+    "email": "onuohasnailery@onuohasnailery.ng",
+    "website": "https://www.onuohasnailery.ng",
+    "image": "images/icons/snail.svg",
+    "bio": "A second-generation farmer, Nkechi Onuoha expanded the Nsukka family holding into a full snails operation supplying markets across Enugu.",
+    "description": "Currently offering Achatina marginata, Archachatina marginata, Achatina achatina (Jumbo). Farm-gate pickup or delivery within the state can be arranged.",
+    "icon": "snail",
+    "verified": true
+  },
+  {
+    "id": "f37",
+    "farmName": "Owolabi Piggery Estate",
+    "tagline": "Reliable pigs supply for wholesale orders",
+    "ownerName": "Efe Owolabi",
+    "state": "Imo",
+    "town": "Owerri",
+    "address": "Owerri, Imo State",
+    "livestockTypes": [
+      "Pigs"
+    ],
+    "varieties": [
+      "Duroc",
+      "Large White",
+      "Boars"
+    ],
+    "quantity": 180,
+    "unit": "live pigs",
+    "pricePerUnit": 71750,
+    "phone": "0806 565 6355",
+    "email": "owolabipiggeryestate@owolabipiggeryestate.ng",
+    "website": "https://www.owolabipiggeryestate.ng",
+    "image": "images/icons/pig.svg",
+    "bio": "After years working in transportation, Efe Owolabi moved into pigs farming and built a steady supply chain out of Owerri, Imo.",
+    "description": "Stock includes Duroc, Large White, Boars. Farm-gate pickup or delivery within the state can be arranged.",
+    "icon": "pig",
+    "verified": true
+  },
+  {
+    "id": "f38",
+    "farmName": "Audu Poultry Farm",
+    "tagline": "Sokoto's trusted source for farm-ready poultry",
+    "ownerName": "Kelechi Audu",
+    "state": "Sokoto",
+    "town": "Wurno",
+    "address": "Wurno, Sokoto State",
+    "livestockTypes": [
+      "Poultry"
+    ],
+    "varieties": [
+      "Layers",
+      "Broilers",
+      "Noiler birds"
+    ],
+    "quantity": 1500,
+    "unit": "birds",
+    "pricePerUnit": 4650,
+    "phone": "0803 872 1508",
+    "email": "audupoultryfarm@audupoultryfarm.ng",
+    "website": "https://www.audupoultryfarm.ng",
+    "image": "images/icons/broiler.svg",
+    "bio": "Kelechi Audu started with a handful of poultry in 2017 and has since grown into one of the more reliable suppliers around Wurno, Sokoto.",
+    "description": "Layers, Broilers, Noiler birds available. Bulk discounts available for orders above the listed minimum.",
+    "icon": "broiler",
+    "verified": true
+  },
+  {
+    "id": "f39",
+    "farmName": "Anyaoku Cattle Post",
+    "tagline": "Bulk cattle, straight from Gwarzo to your buyers",
+    "ownerName": "Grace Anyaoku",
+    "state": "Kano",
+    "town": "Gwarzo",
+    "address": "Gwarzo, Kano State",
+    "livestockTypes": [
+      "Cattle"
+    ],
+    "varieties": [
+      "Calves",
+      "Bulls",
+      "Adamawa Gudali"
+    ],
+    "quantity": 95,
+    "unit": "cattle",
+    "pricePerUnit": 354350,
+    "phone": "0809 721 2876",
+    "email": "anyaokucattlepost@anyaokucattlepost.ng",
+    "website": "https://www.anyaokucattlepost.ng",
+    "image": "images/icons/cattle.svg",
+    "bio": "Grace Anyaoku started with a handful of cattle in 2016 and has since grown into one of the more reliable suppliers around Gwarzo, Kano.",
+    "description": "Calves, Bulls, Adamawa Gudali available. Vaccination and health records provided on request.",
+    "icon": "cattle",
+    "verified": false
+  },
+  {
+    "id": "f40",
+    "farmName": "Sadiq Grove",
+    "tagline": "Farm-gate goats, sold by the batch",
+    "ownerName": "Garba Sadiq",
+    "state": "Katsina",
+    "town": "Daura",
+    "address": "Daura, Katsina State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Does",
+      "Sahel",
+      "Red Sokoto"
+    ],
+    "quantity": 245,
+    "unit": "goats",
+    "pricePerUnit": 55650,
+    "phone": "0806 204 5941",
+    "email": "sadiqgrove@sadiqgrove.ng",
+    "website": "https://www.sadiqgrove.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "Garba Sadiq started with a handful of goats in 2015 and has since grown into one of the more reliable suppliers around Daura, Katsina.",
+    "description": "Currently offering Does, Sahel, Red Sokoto. Cold-chain packing available for buyers outside the state.",
+    "icon": "goat",
+    "verified": false
+  },
+  {
+    "id": "f41",
+    "farmName": "Garba Farms",
+    "tagline": "Reliable sheep supply for wholesale orders",
+    "ownerName": "Chidi Garba",
+    "state": "Adamawa",
+    "town": "Mubi",
+    "address": "Mubi, Adamawa State",
+    "livestockTypes": [
+      "Sheep"
+    ],
+    "varieties": [
+      "Uda",
+      "Yankasa",
+      "Rams"
+    ],
+    "quantity": 205,
+    "unit": "sheep",
+    "pricePerUnit": 50400,
+    "phone": "0808 470 8532",
+    "email": "garbafarms@garbafarms.ng",
+    "website": "https://www.garbafarms.ng",
+    "image": "images/icons/sheep.svg",
+    "bio": "Chidi Garba took over the family sheep operation in Mubi and modernised it with better housing and record-keeping, now serving buyers across Adamawa and beyond.",
+    "description": "Currently offering Uda, Yankasa, Rams. Transport crating arranged for large orders.",
+    "icon": "sheep",
+    "verified": true
+  },
+  {
+    "id": "f42",
+    "farmName": "Ekpo Livestock Farm",
+    "tagline": "Reliable cattle supply for wholesale orders",
+    "ownerName": "Patience Ekpo",
+    "state": "Benue",
+    "town": "Gboko",
+    "address": "Gboko, Benue State",
+    "livestockTypes": [
+      "Cattle"
+    ],
+    "varieties": [
+      "Calves",
+      "Bulls",
+      "Heifers"
+    ],
+    "quantity": 80,
+    "unit": "cattle",
+    "pricePerUnit": 386000,
+    "phone": "0806 950 2419",
+    "email": "ekpolivestockfarm@ekpolivestockfarm.ng",
+    "website": "https://www.ekpolivestockfarm.ng",
+    "image": "images/icons/cattle.svg",
+    "bio": "Patience Ekpo took over the family cattle operation in Gboko and modernised it with better housing and record-keeping, now serving buyers across Benue and beyond.",
+    "description": "Currently offering Calves, Bulls, Heifers. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "cattle",
+    "verified": false
+  },
+  {
+    "id": "f43",
+    "farmName": "Danjuma Grove",
+    "tagline": "Bulk goats, straight from Bukuru to your buyers",
+    "ownerName": "Suleiman Danjuma",
+    "state": "Plateau",
+    "town": "Bukuru",
+    "address": "Bukuru, Plateau State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Bucks",
+      "West African Dwarf",
+      "Sahel"
+    ],
+    "quantity": 215,
+    "unit": "goats",
+    "pricePerUnit": 43400,
+    "phone": "0807 916 5232",
+    "email": "danjumagrove@danjumagrove.ng",
+    "website": "https://www.danjumagrove.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "A second-generation farmer, Suleiman Danjuma expanded the Bukuru family holding into a full goats operation supplying markets across Plateau.",
+    "description": "Stock includes Bucks, West African Dwarf, Sahel. Weekly supply slots available for repeat wholesale buyers.",
+    "icon": "goat",
+    "verified": true
+  },
+  {
+    "id": "f44",
+    "farmName": "Mbanefo Sheep Ranch",
+    "tagline": "Wholesale sheep supply out of Kafanchan, Kaduna",
+    "ownerName": "Bala Mbanefo",
+    "state": "Kaduna",
+    "town": "Kafanchan",
+    "address": "Kafanchan, Kaduna State",
+    "livestockTypes": [
+      "Sheep"
+    ],
+    "varieties": [
+      "Lambs",
+      "Rams",
+      "Ewes"
+    ],
+    "quantity": 125,
+    "unit": "sheep",
+    "pricePerUnit": 80350,
+    "phone": "0808 761 9041",
+    "email": "mbanefosheepranch@mbanefosheepranch.ng",
+    "website": "https://www.mbanefosheepranch.ng",
+    "image": "images/icons/sheep.svg",
+    "bio": "Bala Mbanefo started with a handful of sheep in 2021 and has since grown into one of the more reliable suppliers around Kafanchan, Kaduna.",
+    "description": "Lambs, Rams, Ewes available. Cold-chain packing available for buyers outside the state.",
+    "icon": "sheep",
+    "verified": false
+  },
+  {
+    "id": "f45",
+    "farmName": "Bello Farms",
+    "tagline": "Bulk quails, straight from Ogbomoso to your buyers",
+    "ownerName": "Hadiza Bello",
+    "state": "Oyo",
+    "town": "Ogbomoso",
+    "address": "Ogbomoso, Oyo State",
+    "livestockTypes": [
+      "Quails"
+    ],
+    "varieties": [
+      "Layers",
+      "Table-ready",
+      "Day-old chicks"
+    ],
+    "quantity": 2405,
+    "unit": "birds",
+    "pricePerUnit": 1200,
+    "phone": "0807 819 8434",
+    "email": "bellofarms@bellofarms.ng",
+    "website": "https://www.bellofarms.ng",
+    "image": "images/icons/quail.svg",
+    "bio": "After years working in the civil service, Hadiza Bello moved into quails farming and built a steady supply chain out of Ogbomoso, Oyo.",
+    "description": "Layers, Table-ready, Day-old chicks available. Transport crating arranged for large orders.",
+    "icon": "quail",
+    "verified": true
+  },
+  {
+    "id": "f46",
+    "farmName": "Audu Farms",
+    "tagline": "Wholesale snails supply out of Sagamu, Ogun",
+    "ownerName": "Yusuf Audu",
+    "state": "Ogun",
+    "town": "Sagamu",
+    "address": "Sagamu, Ogun State",
+    "livestockTypes": [
+      "Snails"
+    ],
+    "varieties": [
+      "Achatina achatina (Jumbo)",
+      "Archachatina marginata",
+      "Achatina marginata"
+    ],
+    "quantity": 7955,
+    "unit": "snails",
+    "pricePerUnit": 350,
+    "phone": "0809 878 9595",
+    "email": "audufarms@audufarms.ng",
+    "website": "https://www.audufarms.ng",
+    "image": "images/icons/snail.svg",
+    "bio": "Yusuf Audu took over the family snails operation in Sagamu and modernised it with better housing and record-keeping, now serving buyers across Ogun and beyond.",
+    "description": "Achatina achatina (Jumbo), Archachatina marginata, Achatina marginata available. Vaccination and health records provided on request.",
+    "icon": "snail",
+    "verified": true
+  },
+  {
+    "id": "f47",
+    "farmName": "Audu Snailery",
+    "tagline": "Wholesale snails supply out of Asaba, Delta",
+    "ownerName": "Tunde Audu",
+    "state": "Delta",
+    "town": "Asaba",
+    "address": "Asaba, Delta State",
+    "livestockTypes": [
+      "Snails"
+    ],
+    "varieties": [
+      "Achatina marginata",
+      "Achatina achatina (Jumbo)",
+      "Archachatina marginata"
+    ],
+    "quantity": 8665,
+    "unit": "snails",
+    "pricePerUnit": 350,
+    "phone": "0806 753 9042",
+    "email": "audusnailery@audusnailery.ng",
+    "website": "https://www.audusnailery.ng",
+    "image": "images/icons/snail.svg",
+    "bio": "A second-generation farmer, Tunde Audu expanded the Asaba family holding into a full snails operation supplying markets across Delta.",
+    "description": "Stock includes Achatina marginata, Achatina achatina (Jumbo), Archachatina marginata. Cold-chain packing available for buyers outside the state.",
+    "icon": "snail",
+    "verified": true
+  },
+  {
+    "id": "f48",
+    "farmName": "Bala Piggery Estate",
+    "tagline": "Rivers's trusted source for farm-ready pigs",
+    "ownerName": "Halima Bala",
+    "state": "Rivers",
+    "town": "Bonny",
+    "address": "Bonny, Rivers State",
+    "livestockTypes": [
+      "Pigs"
+    ],
+    "varieties": [
+      "Boars",
+      "Large White",
+      "Pregnant sows"
+    ],
+    "quantity": 185,
+    "unit": "live pigs",
+    "pricePerUnit": 80150,
+    "phone": "0803 690 1878",
+    "email": "balapiggeryestate@balapiggeryestate.ng",
+    "website": "https://www.balapiggeryestate.ng",
+    "image": "images/icons/pig.svg",
+    "bio": "A second-generation farmer, Halima Bala expanded the Bonny family holding into a full pigs operation supplying markets across Rivers.",
+    "description": "Boars, Large White, Pregnant sows available. Bulk discounts available for orders above the listed minimum.",
+    "icon": "pig",
+    "verified": true
+  },
+  {
+    "id": "f49",
+    "farmName": "Ojo Livestock Farm",
+    "tagline": "Farm-gate goats, sold by the batch",
+    "ownerName": "Abubakar Ojo",
+    "state": "Enugu",
+    "town": "Enugu",
+    "address": "Enugu, Enugu State",
+    "livestockTypes": [
+      "Goats"
+    ],
+    "varieties": [
+      "Bucks",
+      "Kids",
+      "Boer cross"
+    ],
+    "quantity": 200,
+    "unit": "goats",
+    "pricePerUnit": 61250,
+    "phone": "0808 404 8025",
+    "email": "ojolivestockfarm@ojolivestockfarm.ng",
+    "website": "https://www.ojolivestockfarm.ng",
+    "image": "images/icons/goat.svg",
+    "bio": "A second-generation farmer, Abubakar Ojo expanded the Enugu family holding into a full goats operation supplying markets across Enugu.",
+    "description": "Currently offering Bucks, Kids, Boer cross. Transport crating arranged for large orders.",
+    "icon": "goat",
+    "verified": true
+  },
+  {
+    "id": "f50",
+    "farmName": "Iortyom Quail Farm",
+    "tagline": "Reliable quails supply for wholesale orders",
+    "ownerName": "Abubakar Iortyom",
+    "state": "Imo",
+    "town": "Orlu",
+    "address": "Orlu, Imo State",
+    "livestockTypes": [
+      "Quails"
+    ],
+    "varieties": [
+      "Layers",
+      "Day-old chicks",
+      "Table-ready"
+    ],
+    "quantity": 1110,
+    "unit": "birds",
+    "pricePerUnit": 950,
+    "phone": "0809 176 3564",
+    "email": "iortyomquailfarm@iortyomquailfarm.ng",
+    "website": "https://www.iortyomquailfarm.ng",
+    "image": "images/icons/quail.svg",
+    "bio": "Abubakar Iortyom runs a growing quails operation just outside Orlu, focused on consistent quality for wholesale buyers in Imo and neighbouring states.",
+    "description": "Currently offering Layers, Day-old chicks, Table-ready. Cold-chain packing available for buyers outside the state.",
+    "icon": "quail",
+    "verified": true
+  }
+]

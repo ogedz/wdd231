@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join | Ile-Ife Chamber of Commerce</title>
+    <meta name="description" content="Apply for membership with the Ile-Ife Chamber of Commerce. Choose from NP, Bronze, Silver, or Gold membership levels.">
+    <meta name="author" content="Monday Ogedengbe">
+    <meta name="theme-color" content="#1a472a">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Join | Ile-Ife Chamber of Commerce">
+    <meta property="og:description" content="Apply for chamber membership and pick the plan that fits your business, from free NP membership to Gold-tier benefits.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ogedz.github.io/wdd231/chamber/join.html">
+    <meta property="og:image" content="https://ogedz.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:site_name" content="Ile-Ife Chamber of Commerce">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Join | Ile-Ife Chamber of Commerce">
+    <meta name="twitter:description" content="Apply for chamber membership and pick the plan that fits your business, from free NP membership to Gold-tier benefits.">
+    <meta name="twitter:image" content="https://ogedz.github.io/wdd231/chamber/images/logo.webp">
+
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+
+<base target="_blank">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <a href="index.html" class="logo" target="_self">
+                <img src="images/logo.webp" alt="Ile-Ife Chamber of Commerce logo" width="48" height="48">
+                <div class="logo-text">
+                    <span class="site-name">Ile-Ife Chamber</span>
+                    <span class="site-tagline">Cradle of Business Excellence</span>
+                </div>
+            </a>
+            <div class="header-actions">
+                <nav aria-label="Main navigation">
+                    <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+                    <ul id="nav-menu" class="nav-menu">
+                        <li><a href="index.html" target="_self">Home</a></li>
+                        <li><a href="directory.html" target="_self">Directory</a></li>
+                        <li><a href="join.html" class="active" aria-current="page" target="_self">Join</a></li>
+                        <li><a href="discover.html" target="_self">Discover</a></li>
+                    </ul>
+                </nav>
+                <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="join-header">
+            <h1>Become a Member</h1>
+            <p>Join over 200 local businesses growing Ile-Ife's economy together. Complete the application below and select the membership level that fits your organization.</p>
+        </div>
+
+        <div class="join-layout">
+            <!-- APPLICATION FORM -->
+            <form class="membership-form" action="thankyou.html" method="get">
+                <h2>Membership Application</h2>
+
+                <label for="firstName">First Name*
+                    <input type="text" id="firstName" name="firstName" title="Enter your first name" autocomplete="given-name" required>
+                </label>
+
+                <label for="lastName">Last Name*
+                    <input type="text" id="lastName" name="lastName" title="Enter your last name" autocomplete="family-name" required>
+                </label>
+
+                <label for="orgTitle">Your Title/Position
+                    <input type="text" id="orgTitle" name="orgTitle" title="Letters, spaces, and hyphens only, minimum 7 characters" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}">
+                </label>
+
+                <label for="email">Email Address*
+                    <input type="email" id="email" name="email" title="Enter your email address" autocomplete="email" placeholder="name@example.com" required>
+                </label>
+
+                <label for="mobilePhone">Mobile Phone*
+                    <input type="tel" id="mobilePhone" name="mobilePhone" title="Enter your mobile phone number" autocomplete="tel" required>
+                </label>
+
+                <label for="businessName">Business/Organization Name*
+                    <input type="text" id="businessName" name="businessName" title="Enter your business or organization name" autocomplete="organization" required>
+                </label>
+
+                <label for="membershipLevel">Membership Level*
+                    <select id="membershipLevel" name="membershipLevel" title="Select a membership level" required>
+                        <option value="" disabled selected>Select a level&hellip;</option>
+                        <option value="np">NP Membership (No Fee)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label for="description">Business Description
+                    <textarea id="description" name="description" title="Briefly describe your business or organization" rows="4"></textarea>
+                </label>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <input type="submit" value="Submit Application" class="cta-btn">
+            </form>
+
+            <!-- MEMBERSHIP LEVEL CARDS -->
+            <aside class="membership-cards" aria-label="Membership levels">
+                <article class="membership-card level-np">
+                    <h3>NP Membership</h3>
+                    <p class="card-price">No Fee</p>
+                    <p>For registered non-profit organizations serving the Ile-Ife community.</p>
+                    <button type="button" class="modal-link" data-modal-target="modal-np">Learn More</button>
+                </article>
+
+                <article class="membership-card level-bronze">
+                    <h3>Bronze Membership</h3>
+                    <p class="card-price">Entry Level</p>
+                    <p>A great starting point for small and growing local businesses.</p>
+                    <button type="button" class="modal-link" data-modal-target="modal-bronze">Learn More</button>
+                </article>
+
+                <article class="membership-card level-silver">
+                    <h3>Silver Membership</h3>
+                    <p class="card-price">Most Popular</p>
+                    <p>Added visibility and perks for established businesses.</p>
+                    <button type="button" class="modal-link" data-modal-target="modal-silver">Learn More</button>
+                </article>
+
+                <article class="membership-card level-gold">
+                    <h3>Gold Membership</h3>
+                    <p class="card-price">Premier</p>
+                    <p>Maximum exposure and benefits for chamber champions.</p>
+                    <button type="button" class="modal-link" data-modal-target="modal-gold">Learn More</button>
+                </article>
+            </aside>
+        </div>
+
+        <!-- MODALS -->
+        <dialog id="modal-np" class="membership-modal">
+            <h3>NP Membership Benefits</h3>
+            <ul>
+                <li>Free listing in the online business directory</li>
+                <li>Invitations to chamber networking events</li>
+                <li>Monthly chamber newsletter subscription</li>
+                <li>Access to community volunteer opportunities</li>
+            </ul>
+            <button type="button" class="modal-close" data-modal-close="modal-np">Close</button>
+        </dialog>
+
+        <dialog id="modal-bronze" class="membership-modal">
+            <h3>Bronze Membership Benefits</h3>
+            <ul>
+                <li>Everything in NP Membership</li>
+                <li>Directory listing with your business logo</li>
+                <li>Discounted tickets to chamber events</li>
+                <li>Listing in the annual member handbook</li>
+            </ul>
+            <button type="button" class="modal-close" data-modal-close="modal-bronze">Close</button>
+        </dialog>
+
+        <dialog id="modal-silver" class="membership-modal">
+            <h3>Silver Membership Benefits</h3>
+            <ul>
+                <li>Everything in Bronze Membership</li>
+                <li>Rotating spotlight placement on the chamber home page</li>
+                <li>Priority registration for chamber events</li>
+                <li>One free seat at an annual training workshop</li>
+            </ul>
+            <button type="button" class="modal-close" data-modal-close="modal-silver">Close</button>
+        </dialog>
+
+        <dialog id="modal-gold" class="membership-modal">
+            <h3>Gold Membership Benefits</h3>
+            <ul>
+                <li>Everything in Silver Membership</li>
+                <li>Guaranteed monthly spotlight placement on the home page</li>
+                <li>Featured, top-of-list placement in the business directory</li>
+                <li>Unlimited seats at chamber training workshops</li>
+                <li>Complimentary booth at the annual Ife Heritage Trade Fair</li>
+            </ul>
+            <button type="button" class="modal-close" data-modal-close="modal-gold">Close</button>
+        </dialog>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Ile-Ife Chamber of Commerce</h2>
+                <p>10 Ooni Road</p>
+                <p>Ile-Ife, Osun State 220212</p>
+                <p><a href="mailto:info@ileifecc.org" target="_self">info@ileifecc.org</a></p>
+                <p><a href="tel:+2348033638719" target="_self">(234)8033638719</a></p>
+            </div>
+            <div class="footer-section">
+                <div class="social-links">
+                    <a href="https://youtube.com" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                    <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/m-ogeds/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <p>WDD231 Class Project</p>
+                <p>Monday Ogedengbe</p>
+                <p>&copy; <span id="footer-year"></span> Ile-Ife Chamber of Commerce</p>
+                <p id="footer-modified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

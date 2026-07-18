@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" role="img" aria-labelledby="bannerTitle">
+  <title id="bannerTitle">Illustration of Nigerian farmland with pens, ponds and a market stall silhouette</title>
+  <rect width="800" height="320" fill="#1F4D3D"/>
+  <path d="M0 230 Q200 190 400 225 T800 210 V320 H0 Z" fill="#2E6E52"/>
+  <path d="M0 260 Q220 235 420 258 T800 245 V320 H0 Z" fill="#F6F1E4" opacity="0.08"/>
+  <circle cx="120" cy="70" r="34" fill="#D9A02D" opacity="0.9"/>
+  <g opacity="0.9">
+    <rect x="560" y="150" width="150" height="90" rx="6" fill="#F6F1E4"/>
+    <polygon points="555,150 635,105 715,150" fill="#A8432B"/>
+    <rect x="610" y="190" width="30" height="50" fill="#1F4D3D"/>
+  </g>
+  <ellipse cx="240" cy="270" rx="70" ry="20" fill="#3E86A0" opacity="0.5"/>
+  <ellipse cx="240" cy="266" rx="60" ry="15" fill="#57A6BF" opacity="0.6"/>
+  <g stroke="#F1D28A" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M330 260 h120"/>
+    <path d="M330 260 v-40 M370 260 v-40 M410 260 v-40 M450 260 v-40"/>
+  </g>
+  <g fill="#F6F1E4" opacity="0.85">
+    <circle cx="150" cy="255" r="10"/>
+    <circle cx="175" cy="258" r="8"/>
+    <circle cx="130" cy="262" r="7"/>
+  </g>
+</svg>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About &amp; Farmer Registration — LivestockLink Nigeria</title>
+  <meta name="description" content="Learn why Nigerian livestock farmers and wholesale buyers struggle to connect, and register your farm to be listed on LivestockLink Nigeria.">
+  <meta name="author" content="Monday Ogedengbe">
+  <meta property="og:title" content="About LivestockLink Nigeria">
+  <meta property="og:description" content="Closing Nigeria's livestock market access gap, one listing at a time.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <script>
+    (function () {
+      var t = localStorage.getItem('livestocklink.theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">LL</span>LivestockLink<span class="dim">&nbsp;Nigeria</span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="marketplace.html">Marketplace</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-pressed="false" aria-label="Switch to dark theme">🌙</button>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" style="padding-bottom:0;">
+      <div class="container">
+        <p class="eyebrow">About LivestockLink</p>
+        <h1>Closing Nigeria's livestock market-access gap</h1>
+        <img
+          src="images/about-banner.svg"
+          alt="Illustrated Nigerian farmland with livestock pens, a fish pond, and a market stall"
+          width="800" height="320"
+          loading="lazy"
+          style="width:100%; height:auto; border-radius:14px; margin: 18px 0 8px;"
+        >
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container gap-section">
+        <div>
+          <h2>Word-of-mouth doesn't scale</h2>
+          <p>Piggery, poultry, snail and fish farming are some of the fastest-growing sources of youth employment in Nigeria today. But most farm-to-buyer connections still happen the same way they did a generation ago: through a neighbour, a church announcement, or a trip down a dusty road on a tip-off. That works at small scale. It breaks down the moment a buyer needs guaranteed volume from a specific state.</p>
+          <p class="pull-quote">"Pick your state, pick your livestock, see who has supply." That's the entire idea.</p>
+          <p>LivestockLink exists to close that gap — a single, searchable directory where wholesale buyers can filter by state and livestock type, and where farmers can be found by buyers they've never met.</p>
+        </div>
+        <ul class="gap-list">
+          <li><span class="num">01</span><div><h3>Buyers can't search</h3><p>There's no central place to find, say, every goat farm in Sokoto or every catfish pond in Delta — buyers rely on personal networks that rarely cross state lines.</p></div></li>
+          <li><span class="num">02</span><div><h3>Farmers stay invisible</h3><p>A well-run snailery in Akwa Ibom has no way to reach a buyer in Lagos without a middleman who takes a cut of the margin.</p></div></li>
+          <li><span class="num">03</span><div><h3>Trust is hard to verify</h3><p>Without listings, reviews, or verified profiles, both sides take on risk every time they do business with someone new.</p></div></li>
+          <li><span class="num">04</span><div><h3>Youth employment is on the line</h3><p>Livestock farming is a major entry point for young Nigerian entrepreneurs — but only if they can actually reach buyers at scale.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="register">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Join the directory</p>
+            <h2>Register your farm</h2>
+            <p>Tell us about your farm and our team will follow up to verify your listing before it goes live on the marketplace.</p>
+          </div>
+        </div>
+
+        <form class="reg-form" id="registrationForm" action="thank-you.html" method="get">
+          <input type="hidden" name="type" value="registration">
+          <fieldset>
+            <legend>Your details</legend>
+            <div class="two-col">
+              <div class="form-row">
+                <label for="farmerName">Full name</label>
+                <input type="text" id="farmerName" name="farmerName" required minlength="2" title="Enter your full name" autocomplete="name">
+              </div>
+              <div class="form-row">
+                <label for="farmerPhone">Phone number</label>
+                <input type="tel" id="farmerPhone" name="farmerPhone" required pattern="^[0-9+\s-]{7,15}$" title="Enter a valid phone number (7–15 digits)" autocomplete="tel">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Farm details</legend>
+            <div class="form-row">
+              <label for="farmName">Farm name</label>
+              <input type="text" id="farmName" name="farmName" required minlength="2" title="Enter your farm's name">
+            </div>
+            <div class="two-col">
+              <div class="form-row">
+                <label for="farmState">State</label>
+                <select id="farmState" name="farmState" required title="Select your state">
+                  <option value="" selected disabled>Select a state</option>
+                  <option>Abia</option><option>Adamawa</option><option>Akwa Ibom</option><option>Anambra</option>
+                  <option>Bauchi</option><option>Bayelsa</option><option>Benue</option><option>Borno</option>
+                  <option>Cross River</option><option>Delta</option><option>Ebonyi</option><option>Edo</option>
+                  <option>Ekiti</option><option>Enugu</option><option>FCT</option><option>Gombe</option>
+                  <option>Imo</option><option>Jigawa</option><option>Kaduna</option><option>Kano</option>
+                  <option>Katsina</option><option>Kebbi</option><option>Kogi</option><option>Kwara</option>
+                  <option>Lagos</option><option>Nasarawa</option><option>Niger</option><option>Ogun</option>
+                  <option>Ondo</option><option>Osun</option><option>Oyo</option><option>Plateau</option>
+                  <option>Rivers</option><option>Sokoto</option><option>Taraba</option><option>Yobe</option>
+                  <option>Zamfara</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <label for="farmTown">Town / LGA</label>
+                <input type="text" id="farmTown" name="farmTown" required minlength="2" title="Enter your town or LGA">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="livestockTypes">Livestock you raise</label>
+              <input type="text" id="livestockTypes" name="livestockTypes" required placeholder="e.g. Pigs, Poultry, Goats" minlength="2" title="List at least one livestock type">
+              <p class="form-hint">Separate multiple types with commas — pigs, poultry, turkey, goats, sheep, cattle, fish, rabbits, snails, grasscutters, quails, and more all welcome.</p>
+            </div>
+            <div class="form-row">
+              <label for="farmDescription">Tell buyers about your farm (optional)</label>
+              <textarea id="farmDescription" name="farmDescription" placeholder="Herd size, breeds, delivery area, anything buyers should know"></textarea>
+            </div>
+          </fieldset>
+
+          <div class="form-row">
+            <label class="checkbox-row">
+              <input type="checkbox" id="agreeTerms" name="agreeTerms" value="yes" required title="Please confirm before submitting">
+              <span>I confirm this information is accurate and I consent to LivestockLink contacting me about my listing.</span>
+            </label>
+          </div>
+
+          <input type="hidden" name="timestamp" id="regTimestamp">
+          <button type="submit" class="btn btn-primary">Submit registration</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>LivestockLink Nigeria</h4>
+          <p style="opacity:.85; font-size:.9rem; max-width:32ch;">A searchable directory connecting livestock farmers with wholesale buyers, state by state.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="about.html#register">Register your farm</a></li>
+            <li><a href="attributions.html">Attributions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div class="social-list">
+            <a class="social-link" href="https://facebook.com/livestocklinkng" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-facebook"></use></svg></span> Facebook
+            </a>
+            <a class="social-link" href="https://x.com/livestocklinkng" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-x"></use></svg></span> Twitter / X
+            </a>
+            <a class="social-link" href="https://linkedin.com/company/livestocklinkng" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-linkedin"></use></svg></span> LinkedIn
+            </a>
+            <a class="social-link" href="https://github.com/livestocklinkng" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-github"></use></svg></span> GitHub
+            </a>
+            <a class="social-link" href="https://wa.me/2348033638719" target="_blank" rel="noopener">
+              <span class="social-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#icon-whatsapp"></use></svg></span> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 LivestockLink Nigeria. Student project by Monday Ogedengbe.</span>
+        <span>Built with HTML, CSS &amp; JavaScript — no frameworks.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/about.js"></script>
+</body>
+</html>
