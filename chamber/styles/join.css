@@ -31,7 +31,7 @@
 }
 
 .join-header p {
-    color: var(--text-light);
+    color: var(--text);
 }
 
 /* ============================================
@@ -154,7 +154,7 @@
     letter-spacing: 0.04em;
     font-size: 0.7rem;
     font-weight: 700;
-    color: var(--secondary);
+    color: var(--accent);
     margin-top: -0.25rem;
 }
 
