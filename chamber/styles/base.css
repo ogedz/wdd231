@@ -18,8 +18,11 @@
     --shadow-lg: 0 4px 16px rgba(0,0,0,0.15);
     --radius: 8px;
     --transition: all 0.3s ease;
-    --heading: var(--primary); 
-    --on-primary: #ffffff;       
+
+    /* Semantic colors kept separate from --primary/--surface so dark mode
+       can adjust them independently without breaking contrast */
+    --heading: var(--primary);   /* headings/labels sitting on card & page backgrounds */
+    --on-primary: #ffffff;       /* text/icons sitting on primary-green backgrounds */
 }
 
 body {
@@ -334,12 +337,6 @@ main {
     grid-template-columns: 1fr;
     gap: 1.5rem;
     text-align: center;
-}
-
-.footer-section h4 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    color: var(--secondary);
 }
 
 .footer-section p {
