@@ -3,7 +3,7 @@
    Mobile-first responsive design
    ============================================ */
 
-/* :root {
+:root {
     --primary: #1a472a;
     --primary-dark: #0f2e1a;
     --secondary: #c9a227;
@@ -21,26 +21,10 @@
 
     --heading: var(--primary);  
     --on-primary: #ffffff;       
-} */
-
-
-:root {
-    --primary: #1a472a;
-    --primary-dark: #0f2e1a;
-    --secondary: #c9a227;
-    --secondary-light: #e0c04d;
-
-    --background: #f8f9fa;
-    --surface: #ffffff;
-
-    --text: #212529;
-    --text-light: #6c757d;
-    --heading: #1a472a;
-
-    --border: #dee2e6;
-    --white: #ffffff;
-    --black: #000000;
 }
+
+
+
 
 body {
     font-family: 'Open Sans', sans-serif;
